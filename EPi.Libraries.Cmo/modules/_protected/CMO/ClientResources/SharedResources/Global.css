@@ -1,0 +1,135 @@
+﻿h1 { margin: 0; }
+h2.epi-heading-underlined { border-bottom: 1px solid #ccc; }
+.epi-width100 { width: 100%; }
+.epi-color-red { color: #f00 !important; }
+.epi-color-green { color: #0FD000 !important; }
+.epi-overflowAuto {overflow: auto; }
+a.epi-linkBlue { color: #0072bc;}
+a:visited.epi-linkBlue { color: #0072bc;}
+.epi-padding-bottom0 { padding-bottom: 0 !important; }
+
+.iPhone a
+{
+    text-decoration: underline;
+}
+.epi-gadgetFeedback-iPhone
+{
+    margin-left: -32px !important;
+}
+
+
+/* Toolbar */
+.epi-gadget-toolbar {
+	width: 100%;
+	overflow: hidden;
+	padding: 0.2em 0;
+	border-top: 1px solid #8B8B8B;
+	border-bottom: 1px solid #8B8B8B;
+	background: transparent url('ToolbarBg.gif') repeat-x 0 0;
+}
+.epi-gadget-toolbar-container {
+	float: left;
+	height: 24px;
+	padding: 0 0.3em;
+	border-right: 1px solid #b2b2b2;
+}
+.iPhone .epi-gadget-toolbar-container {
+    height: 31px;
+}
+
+.epi-gadget-toolbar-button,
+.epi-gadget-toolbar-button-disabled {
+	display: inline-block;
+	margin-right: 5px;
+	overflow: visible;
+	padding: 2px;
+	white-space: nowrap;
+	background-image: none;
+	border: 1px solid transparent;
+	margin-left: 0;
+}
+.iPhone .epi-gadget-toolbar-button,
+.iPhone .epi-gadget-toolbar-button-disabled {
+    font-size: 1.5em;
+}
+.epi-gadget-toolbar-button {
+	cursor: pointer;
+}
+.epi-gadget-toolbar-button:hover {
+	background-color: #efefef;
+	border: 1px solid #ccc;
+}
+
+.epi-gadget-toolbar-button-disabled {
+	opacity: 0.5;
+}
+		
+.epi-gadget-toolbar-button input,
+.epi-gadget-toolbar-button-disabled input {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	height: 18px;
+	margin: 0;
+	overflow: visible;
+	padding: 0;
+	vertical-align: middle;
+	min-width: 20px;
+	width: auto;
+	padding-left: 20px;
+}
+.iPhone .epi-gadget-toolbar-button input,
+.iPhone .epi-gadget-toolbar-button-disabled input {
+    height: 1.5em;
+}
+.epi-gadget-toolbar-button input {
+	cursor: pointer;
+}
+
+
+
+.epi-gadget-toolbar-button-Start input {
+	background: transparent url('btnStart.png') no-repeat left center;
+}
+.epi-gadget-toolbar-button-Stop input {
+	background: transparent url('btnStop.png') no-repeat left center;
+}
+.epi-gadget-toolbar-button-Archive input {
+	background: transparent url('btnArchive.png') no-repeat left center;
+}
+
+.epi-CMOGadget-headingMeta {
+	margin-right: 1.5em;
+}
+.iPhone .epi-CMOGadget-headingMeta {
+    margin-right: 0;
+    clear: both;
+    float: left;
+}
+.epi-CMOGadget-headingMeta-Name {
+	font-weight: bold;
+	margin-right: 0.3em;
+}
+
+.EP-systemMessage {
+    display: block;
+    color: #000;
+    border-bottom: solid 1px #878787;
+    background-color: #fffdbd;
+    padding: 0.3em;
+}
+
+.epi-gadget-languageLabel img {
+    vertical-align: middle;
+    margin-right: 0.3em;
+}
+
+.epi-gadget-notconfigured > div {
+	clear: both;
+	width: 100%;
+	margin-bottom: 0.3em;
+	font-weight: bold;
+}
+.epi-gadget-notconfigured a {
+    color: #1A4AA4 !important;
+}

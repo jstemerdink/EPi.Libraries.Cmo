@@ -1,0 +1,159 @@
+.epi-CMGadget-summary {
+	width: 49%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.iPhone .epi-CMGadget-summary {
+	width: 100%;
+}
+
+.epi-CMGadget-summary li {
+	width: 98%;
+	float: left;
+	padding: 0.2em 1%;
+}
+.epi-CMGadget-summary li.even {
+	background: #e0e0e0;
+}
+.iPhone .epi-CMGadget-summary li.even {
+	background: transparent;
+}
+
+
+.epi-CMGadget-summary li span {
+	float: right;
+}
+.epi-CMGadget-summary li span:first-child {
+	float: left;
+}
+
+.epi-CMGadget-warning {
+    width:13px;
+	display: inline-block;
+	margin-left: 0.5em;
+	background: transparent url('warning.png') no-repeat left center;
+	cursor: help;
+	border-bottom: 1px dotted red;
+}
+
+
+
+.epi-widget-pageViews {
+	background: #eee;
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.epi-widget-pageViews table {
+	position: relative;
+}
+.epi-widget-pageViews table td {
+	padding: 0 0.1em;
+}
+.epi-widget-pageViews-bars td {
+	height: 200px;
+}
+.epi-widget-pageViews-bar {
+	position: relative;
+	height: 160px;
+	width: 20px;
+	margin-top: 40px;
+}
+.epi-widget-pageViews-bar-views {
+	background: #6dbae0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 10px;
+}
+.epi-widget-pageViews-bar-visitors {
+	background: #f19808;
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	width: 10px;
+}
+.epi-widget-pageViews-bar-views span,
+.epi-widget-pageViews-bar-visitors span {
+	font-family: Arial;
+	font-size: 0.85em;
+	line-height: 1em;
+	text-align: left;
+	color: #666;
+	z-index: 3;
+	display: block;
+	position: absolute;
+	width: 37px;
+	padding-left: 3px;
+	left: 0;
+	white-space: nowrap;
+	-webkit-transform-origin: 0 0;
+	-webkit-transform: rotate(-90deg);
+}
+
+.epi-widget-pageViews-names td div {
+	overflow: hidden;
+	position: relative;
+	height: 73px;
+	width: 20px;
+}
+.epi-widget-pageViews-names td span {
+	font-family: Arial;
+	font-size: 0.85em;
+	line-height: 0.9em;
+	text-align: right;
+	color: #666;
+	z-index: 3;
+	display: block;
+	position: absolute;
+	width: 70px;
+	left: -70px;
+	top: 3px;
+	white-space: nowrap;
+	-webkit-transform-origin: 100% 0;
+	-webkit-transform: rotate(-90deg);
+}
+
+.epi-CMGadget-hint {
+    font-size:x-small;
+}
+
+.epi-CMGadget-browserStatsTable {
+	width: 100%;
+}
+
+.epi-CMGadget-browserStatsTable tr td {
+	vertical-align: middle;
+	text-align: left;
+}
+.epi-CMGadget-browserStatsTable tr td div {
+	background: #eee;
+	height: 1em;
+}
+.epi-CMGadget-browserStatsTable tr td div div {
+	background: #999;
+}
+
+
+.epi-CMGadget-browserStatsTable tr td.epi-CMGadget-browserName,
+.epi-CMGadget-browserStatsTable tr td.epi-CMGadget-browserVolume {
+	white-space: nowrap;
+	text-align: right;
+	padding: 0 0.5em 0 0;
+	background: none;
+}
+.epi-CMGadget-browserStatsTable tr td.epi-CMGadget-browserBar {
+	width: 100%;
+}
+.epi-CMGadget-browserStatsTable tr td.epi-CMGadget-browserVolume {
+	text-align: left;
+	padding: 0 0 0 0.5em;
+}
+.epi-browsersPieChart {
+    background-color: #FFFFFF;
+}
+.epi-browsersPieChart div {
+    margin-left: auto;
+    margin-right: auto
+}

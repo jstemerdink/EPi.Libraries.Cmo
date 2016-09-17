@@ -1,0 +1,1098 @@
+/*-------------v---------------*/
+/*--     Global section      --*/
+/*-------------v---------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+.epi-contentContainer {
+    min-width: 61em;
+}
+table.epi-default table td {
+    padding: 0.3em 0.4em;
+}
+.epi-localNavigation li li a {
+    overflow: hidden;
+}
+.epi-localNavigation li li a span {
+    cursor: pointer;
+}
+.formValidators {
+    display: inline;
+}
+
+
+.epi-toolbarOnPage {
+    border-top: 1px solid #8B8B8B;
+}
+.epi-tabView + .epi-toolbarOnPage {
+    border-top: none;
+}
+
+button {
+    font: 1em "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,Sans-Serif;
+}
+.epi-alignMiddle {
+    vertical-align: middle !important;
+}
+.epi-alignMiddleContent input, 
+.epi-alignMiddleContent button, 
+.epi-alignMiddleContent .epi-cmsButton,
+.epi-alignMiddleContent .formValidators,
+.epi-alignMiddleContent select, 
+.epi-alignMiddleContent label {
+    vertical-align: middle !important;
+}
+.epi-noWrap { white-space: nowrap; }
+.deleted { text-decoration: line-through; }
+.hidden {
+	display: none !important;
+	clear: both!important;
+}
+.visibilityHidden { visibility: hidden !important; }
+.epi-color-red { color: #f00 !important; }
+.epi-color-green { color: #0f0; }
+.epi-font-small { font-size: 0.8em; }
+.epi-inline { display: inline;}
+.epi-inlineBlock { display: inline-block; }
+.epi-relative { position: relative; }
+
+table td.cellNoBorder {
+    border: none;
+}
+table td.cellFieldName {
+}
+table td.cellFieldValue {
+    text-align: right;
+    border-right: 1px solid #bebebe;
+}
+table td.cellPaddingLeft {
+    padding-left: 2em !important;
+}
+table td.cellPaddingRight {
+    padding-right: 2em !important;
+}
+.alignCenter {
+    text-align: center;
+}
+
+.processing {
+    min-height: 16px;
+    padding-left: 20px;
+    background: transparent url("Resources/AjaxLoaderWhite.gif") no-repeat left top;
+}
+
+/*--     Buttons     --*/
+.epi-cmsButton-iconOnly {
+    width: 18px;
+    height: 18px;
+}
+.epi-cmsButton-CalendarMonth {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px 0px;
+}
+.epi-cmsButton-CalendarWeek {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -18px;
+}
+.epi-cmsButton-CalendarDay {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -36px;
+}
+.epi-cmsButton-CalendarHour {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -54px;
+}
+
+.epi-cmsButton-Winner {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -72px;
+}
+.epi-cmsButton-Start {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -90px;
+}
+.epi-cmsButton-Stop {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -108px;
+}
+.epi-cmsButton-ExportCMO {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -126px;
+}
+
+.epi-cmsButton-Left {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -144px;
+}
+.epi-cmsButton-Right {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -162px;
+}
+.epi-cmsButton-Up {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -180px !important;
+}
+.epi-cmsButton-Down {
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -198px !important;
+}
+.epi-cmsButton-Archive {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -216px;
+}
+.epi-cmsButton-ViewThumbnails {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -252px;
+}
+.epi-cmsButton-ViewList {
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -270px;
+}
+
+
+.epi-dateRange {
+    overflow: hidden;
+    margin: 2em 0 0.8em 0;
+}
+
+
+/*-------------v---------------*/
+/*--     Warning message     --*/
+/*-------------v---------------*/
+
+.DatabaseVerificationMessagePanel {
+    background-color: #dadde0;
+    display: block;
+    /*height: 72px;*/
+    text-align: left;
+    vertical-align: middle!important;
+    font-family: "Lucida Grande", "Lucida Sans-Serif Unicode", Arial, Verdana, Sans-Serif;
+	color: Black;
+	font-size: 0.8em;
+	font-weight: bold;	
+	line-height: 1.2em;
+	padding: 1em 1.5em 1em 1.5em;	
+	position: relative;
+}
+.DatabaseVerificationMessagePanel {
+    background-color: transparent;
+    border: 2px solid #f66;
+}
+.DatabaseVerificationMessagePanel a {
+    color: #1A4AA4;
+}
+
+
+/*-------------v---------------*/
+/*--     Main structure      --*/
+/*-------------v---------------*/
+.bodyMainWrapper {
+	float: left;
+	overflow: visible;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.bodyMain {
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	float: none;
+	position: relative;
+	background: #f4f4f4;
+	border-left: 1px solid #8d8d8d;
+}
+.bodySidebar {
+	display: block;
+	float: left;
+	width: 220px;
+}
+
+/*-------------v---------------*/
+/*--     Sidebar Toggler     --*/
+/*-------------v---------------*/
+.bodySidebarToggler {
+	overflow: visible;
+	display: inline-block;
+	float: left;
+	width: 9px;
+	margin: 14em 0 0 -9px;
+}
+.bodySidebarToggler a {
+	display: inherit;
+	overflow: visible;
+	width: 7px;
+	height: 96px;
+	float: right;
+	background: url("Resources/cmosprite2.png") 0px -288px no-repeat;
+}
+.bodySidebarToggler a:hover {
+	display: inherit;
+	overflow: visible;
+	width: 9px;
+	height: 96px;
+	float: right;
+	margin-left: -2px;
+	background: url("Resources/cmosprite2.png") 0px -288px no-repeat;
+}
+.bodySidebarTogglerShow a {
+	display: inherit;
+	width: 7px;
+	height: 96px;
+	float: left;
+	background: url("Resources/cmosprite2.png") -7px -288px no-repeat;
+}
+.bodySidebarTogglerShow a:hover {
+	display: inherit;
+	width: 9px;
+	height: 96px;
+	float: left;
+	margin-right: -2px;
+	background: url("Resources/cmosprite2.png") -5px -288px no-repeat;
+}
+.bodySidebarTogglerShow {
+	overflow: visible;
+	display: inline-block;
+	float: left;
+	width: 9px;
+	margin-top: 13em;
+}
+
+
+/*-------------v---------------*/
+/*--     Page heading        --*/
+/*-------------v---------------*/
+.epi-contentContainer h1 {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+.headingMeta {
+    margin-right: 1.5em;
+}
+.headingMetaName {
+    margin-right: 0.3em;
+    font-weight: bold;
+}
+.headingMetaValue {
+}
+.cmo-languageLabel img {
+    vertical-align: middle;
+    margin-right: 0.3em;
+}
+
+
+/*-------------v---------------*/
+/*--    Tests list           --*/
+/*-------------v---------------*/
+.testsList td {
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+table.epi-default th span.epi-sort-asc {
+	background: transparent url("Resources/cmosprite2.png") no-repeat right -384px;
+	padding-right: 10px;
+}
+table.epi-default th span.epi-sort-desc {
+	background: transparent url("Resources/cmosprite2.png") no-repeat right -400px;
+	padding-right: 10px;
+}
+
+
+/*-------------v---------------*/
+/*--    Chart range selector --*/
+/*-------------v---------------*/
+.periodSelectorList {
+    margin-right: 25px;
+}
+.periodSelectorList span.epi-cmsButton,
+.periodSelectorList span.epi-cmsButtondisabled
+{
+    margin: 0;
+    padding: 1px 0 1px 1px;
+}
+.epi-cmsButtonActive {
+    display: inline-block;
+    position: relative;
+    border: 1px solid #aeaeae;
+}
+.epi-cmsButtonContainer {
+    display: inline-block;
+    position: relative;
+}
+.reportCampaignLabel {
+    margin: 5px 0.5em 0 0;
+}
+.disabledPeriod {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.CM-report-lineChart img {
+    width: 98.5%;
+    height: 245px;
+}
+.CM-report-funnel-noData {
+    display: inline-block;
+    width: 330px;
+    height: 100px;
+    background: #ddd;
+    margin: 10px 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+/*-------------v---------------*/
+/*--    Conversion paths     --*/
+/*-------------v---------------*/
+.conversionPathRowCollapseExpand td {
+    text-align: center;
+}
+.conversionPathTableCollapsed .conversionPathRow {
+    display: none;
+}
+.conversionPathExpandLink, .conversionPathCollapseLink {
+    border-bottom: 1px dotted;
+}
+.conversionPathTable .conversionPathExpandLink {
+    display: none;
+}
+.conversionPathTable .conversionPathCollapseLink {
+    display: inline;
+}
+.conversionPathTableCollapsed .conversionPathExpandLink {
+    display: inline;
+}
+.conversionPathTableCollapsed .conversionPathCollapseLink {
+    display: none;
+}
+.conversionPathContainer {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    padding: 1em 0;
+}
+.conversionPathBlock {
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.conversionPathSide {
+    width: 36.5%;
+    min-height: 68px;
+    position: relative;
+    overflow: hidden;
+}
+.conversionPathLinks {
+    float: left;
+    white-space: nowrap;
+    margin-left: 55px;
+    width: 79%;
+    overflow: hidden;
+}
+.conversionPathLinks strong {
+    white-space: normal;
+}
+.conversionPathLinksLeft {
+    margin-left: 0;
+}
+.conversionPathThumb 
+{
+    width: 25%;
+    text-align: center;
+}
+
+.conversionPathArrow {
+	display: inline-block;
+	text-align: center;
+	float: none;
+	height: 2em;
+}
+.conversionPathArrow .arrowInOut {
+	display: block;
+	float: left;
+	height: 18px;
+	width: 18px;
+	margin-left: 0.2em;
+	background: url('Resources/cmosprite2.png') no-repeat 0px -164px;
+	text-indent: -10000px;
+}
+.conversionPathArrow .reportCampaignLabel {
+    float: left;
+    margin: 0;
+}
+.conversionPathArrow.in {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.conversionPathArrow.out 
+{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+.arrowTransition {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-top: 0.2em;
+	background: url('Resources/cmosprite2.png') no-repeat 0px -198px;
+	text-indent: -10000px;
+}
+
+.conversionPathThumbImage {
+    width: 160px;
+    padding: 3px;
+    background: #d1d1d1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/*-------------v---------------*/
+/*--    LPO Settings         --*/
+/*-------------v---------------*/
+.LPOSettings label {
+    vertical-align: top !important;
+    margin-top: 0.3em;
+}
+.LPOSettings .epi-cmsButton,
+.LPOSettings .epi-cmsButtondisabled {
+    vertical-align: top;
+}
+
+
+/*-------------v---------------*/
+/*--    LPO Report           --*/
+/*-------------v---------------*/
+.LPOReportHeading {
+    padding-left: 226px;
+    margin-left: 3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2em;
+}
+.LPOReportItem {
+    overflow: hidden;
+    clear: both;
+    padding: 0 1em;
+}
+.LPOReportWinner {
+    background: #e8efe8;    
+}
+.LPOReportItemInner {
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #d1d1d1;
+    padding: 1em 0 0.5em 0;
+}
+
+.LPOReportName {
+    width: 100%;
+    float: left;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.LPOReportThumbnail {
+    float: left;
+    width: 226px;
+}
+.LPOReportThumbnail img {
+    width: 218px;
+    height: 161px;
+    background: #d1d1d1;
+    padding: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.LPOReportGauge {
+    float: right;
+    width: auto;
+}
+
+.LPOReportStats {
+    color: #666;
+    margin-left: 226px;
+    padding-left: 2em;
+}
+.LPOReportStats > div {
+    overflow: hidden;
+}
+.LPOReport-mainValue {
+    float: left;
+    margin: -0.9em 0 1em 0;
+    font-weight: bold;
+}
+.LPOReport-mainValue-best {
+    color:  #090;
+}
+.LPOReport-mainValue-worst {
+    color:  #900;
+}
+.LPOReport-mainValue-major {
+    font-size: 3.5em;
+}
+.LPOReport-mainValue-minor {
+    margin-left: 0.2em;
+    font-size: 1.8em;
+}
+.LPOReport-value {
+    float: left;
+    clear: both;
+    margin-bottom: 0.3em;
+    white-space: nowrap;
+}
+.LPOReport-value span {
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+
+.LPOReport-winnerHolder {
+    float: left;
+    margin-top: 1em;
+}
+
+.LPOReport-winnerMark {
+    display: block;
+    overflow: hidden;
+}
+.LPOReport-winnerMark-icon {
+    float: left;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: transparent url("Resources/cmosprite2.png") no-repeat 0px -72px;
+}
+.LPOReport-winnerMark-text {
+    display: block;
+    line-height: 18px;
+    float: left;
+    margin-left: 0.5em;
+    color: #090;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*-------------v---------------*/
+/*--    LPO Report Table     --*/
+/*-------------v---------------*/
+.reportCampaignRow {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+span.red {
+	color: #ff3322;
+}
+span.green {
+	color: #0fd000;
+}
+.pageName {
+	display: inline-block;
+	text-align: center;
+	clear: left;
+	overflow: hidden;
+	line-height: 1.2em;
+	margin: 0.5em 0;
+}
+.pageNameContent {
+	line-height: 1.4em;
+}
+.reportGauge {
+	display: inline-block;
+	clear: left;
+	overflow: hidden;	
+	width: 202px;
+	height: 140px;
+}
+.reportGauge div {
+	width: 99.5% !important;
+	overflow: hidden !important;
+}
+
+
+/*-- Campaign Page Selector --*/
+.dialogPageSelect {
+	display: block;
+	width: 100%;
+	height: 90%;
+	overflow: hidden;
+}	
+.dialogPageSelectDiv {
+	display: block;
+	float: left;
+	position: relative;
+	overflow: auto;
+	width: 99%;
+	height: 99%;
+	border: 1px solid #8d8d8d;
+	background-color: #e3e3e3;
+	color: #202121;
+}
+
+.dialogPageSelectHeading {
+    width: 100%;
+}
+.dialogPageSelectHeadingLeft,
+.dialogPageSelectHeadingRight {
+    width: 47%;
+    float: left;
+    line-height: 1.5em;
+}
+.dialogPageSelectHeadingRight {
+    margin-left: 30px;
+}
+
+.dialogPageSelect .dialogPageSelectDiv {
+    width: 47%;
+}
+.dialogPageSelectorChoice {
+	display: block;
+	float: left;
+	width: 26px; 
+	margin: 60px 0 0 2px;
+}
+ul.selectedPages {
+	font-family: "Lucida Grande", "Lucida Sans-Serif Unicode", Arial, Verdana, Sans-Serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+ul.selectedPages a, ul.selectedPages a:visited {
+	display: block;
+	padding: .1em .3em;
+	color: #202121;
+	font-weight: normal;
+}
+ul.selectedPages a:hover {
+	color: #dadde0;
+	background-color: #454647;
+}
+ul.selectedPages li.selected a {
+	background-color: #a4a8ab;
+}
+ul.selectedPages li.selected a:hover {
+	background-color: #a4a8ab;
+	color: #202121;
+}
+#MultiselectDialogDiv .ui-dialog-buttonpane button {
+	width: 7em !important;
+}
+
+/*-- styles for pages with special states: used in another test, has no another language --*/
+.used {background-color :Silver}
+.nolang {font-style:italic}
+.notpublished {font-style:italic}
+.notvisible {font-style:italic}
+
+
+/*-- Page Selector Elements --*/
+.pageScrollContent {
+	display: block;
+	overflow: visible;
+}
+.pageViewCellThumb {
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	white-space: normal;
+	float: left;
+	width: 166px;
+	text-align: center;
+    padding: 0 22px 15px 0;
+}
+.pageViewCellThumb:first-child {
+    padding-left: 0;
+}
+
+.pageViewCellThumb.overallCampaign {
+    font-style: italic;
+}
+.pageViewCellThumb.overallCampaign img {
+    background-color: #666;
+}
+.pageViewCellList {
+	display: block;
+	width: 30%;
+	white-space: normal;
+	float: left;
+	margin: 0 3% 0.5em 0;
+	padding-left: 0.3%;
+	overflow: hidden;
+	position: relative;
+	min-height: 18px;
+}
+.pageViewCellList.overallCampaign {
+    width: 100%;
+    margin: 0 0 0.5em 0;
+    font-weight: bold;
+}
+.pageViewCellList .reportCampaignLabel {
+	overflow: hidden;
+	display: block;
+	white-space: nowrap!important;
+	margin: 0;
+	padding-left: 20px;
+}
+.pageViewCellList .reportCampaignLabel .pageNameLink {
+	white-space: nowrap;
+}
+
+.pageViewCellThumb.selectedPage {
+	border: solid 1px #79cffa;
+}
+.pageViewCellThumb.selectedPage .pageNameContent {
+	color: #79cffa!important;
+}
+.pageViewCellThumb.selectedPage .pageNameContent.deleted {
+	color: #ff3322!important;
+}
+
+.pageScrollContent.pageSelector .pageViewCellList,
+.pageScrollContent.pageSelector .pageViewThumb {
+	cursor: pointer;
+}
+.pageScrollContent.pageSelector .pageViewCellList.noPointer,
+.pageScrollContent.pageSelector .pageViewThumb.noPointer {
+	cursor: auto;
+}
+.pageScrollContent.pageSelector .pageViewCellList .reportCampaignLabel {
+	width: 220px;
+}
+.pageScrollContent.pageSelector .pageViewCellList:hover,
+.pageScrollContent.pageSelector .pageViewCellList.selected {
+	background: #ccc;
+}
+
+.pageScrollContent.pageSelector .pageViewCellList:hover .reportCampaignLabel {
+	color: #202121 !important;
+}
+.pageViewCellList.selectedPage,
+.pageViewCellList:hover.selectedPage {
+	background-color: #202121!important;
+	color: #79cffa!important;
+}
+.pageScrollContent.pageSelector .pageViewCellList:hover.selectedPage .reportCampaignLabel,
+.pageScrollContent.pageSelector .pageViewCellList.selectedPage .reportCampaignLabel {
+	color: #79cffa!important;
+}
+.pageScrollContent.pageSelector .pageViewCellList:hover.selectedPage .reportCampaignLabel.deleted,
+.pageScrollContent.pageSelector .pageViewCellList.selectedPage .reportCampaignLabel.deleted {
+	color: #ff3322!important;
+}
+.pageScrollContent.pageSelector .pageViewCellList:hover.selectedPage {
+	cursor: default;
+}
+a:hover.pageNameContent {
+	color: #dadde0;
+}
+
+.pageViewCellThumb a {
+	display: inline;
+	clear: left;
+	text-align: center;
+}
+.pageViewCellThumb a:hover.pageNameLink {
+	cursor: pointer;
+}
+.pageViewThumb {
+	display: inline-block;
+	clear: left;
+	width: 160px;
+	height: 120px;
+	padding: 3px;
+	background: #D1D1D1;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.pageViewCellThumb.selected .pageViewThumb {
+    background: #008dd5;
+}
+span.pageNameLink,
+span.pageNameContent,
+a.pageNameLink,
+a:link.pageNameLink,
+a:visited.pageNameLink {
+	display: block;
+	overflow: hidden;
+	clear: left;
+	line-height: 1.2em;
+	max-height: 4.8em;
+}
+
+
+/*-- Version List Selector --*/
+.epi-alignMiddleContent .inputButton {
+    margin: 0 0.3em;
+}
+.ui-dialog ul.versionList {
+	clear: left;
+	width: 97%;
+	height: 96%;
+	display: inline-block !important;
+	font-size: 1em; 
+	overflow: visible;
+	padding-top: .5em;
+}
+.ui-dialog ul.versionList li {
+	display: block;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	cursor: pointer;
+	background-color: Transparent;
+}
+.ui-dialog li.versionListHeader {
+	float: none;
+	font-weight: bold;
+	background-color: #525354!important;
+	color: #dadde0!important;
+	width: 100%;
+	height: 1.6em!important;
+	cursor: default!important;
+}
+.ui-dialog li.versionListRow {
+	display: block;
+	clear: left!important;
+	overflow: visible!important;
+	width: 100%;
+	color: #393a3b!important;
+	cursor: pointer;
+}
+.ui-dialog li.versionListRow.picked {
+	background-color: #ccc !important;
+	color: #202121 !important;
+}
+
+.ui-dialog span.versionListItem {
+	display: block;
+	overflow: hidden!important;
+	float: left;
+	text-align: left;
+	padding: 3px;
+}
+.ui-dialog li.versionListHeader span.versionListItem {
+	padding-top: .2em;
+	height: 1.6em!important;
+}
+.ui-dialog li.versionListRow span.versionListItem {
+	font-size: 1em !important;
+	height: 100%;
+}
+.ui-dialog span.versionListItem.col1 {
+	border-left: 0;
+	width: 6%!important;
+}
+.ui-dialog span.versionListItem.col2 {
+	width: 25%!important;
+}
+.ui-dialog span.versionListItem.col3 {
+	width: 15%!important;
+}
+.ui-dialog span.versionListItem.col4 {
+	width: 27%!important;
+}
+.ui-dialog span.versionListItem.col5 {
+	width: 8%!important;
+}
+.ui-dialog span.versionListItem.col6 {
+	width: 8%!important;
+}
+
+
+/*-------------v---------------*/
+/*--      KPI settings       --*/
+/*-------------v---------------*/
+.KPI-settings-campaignKPI .KPI-settings-thumbnail img {
+    background: #666;
+}
+
+.KPI-settings-container {
+    padding: 1em;
+    overflow: hidden;
+}
+.KPI-settings-pageName {
+    width: 100%;
+    float: left;
+}
+.KPI-settings-thumbnail {
+    float: left;
+    width: 166px;
+    margin-right: 2em;
+}
+.KPI-settings-thumbnail img {
+    width: 160px;
+    height: 120px;
+    padding: 3px;
+    background: #d1d1d1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.KPI-settings-main {
+    float: left;
+    width: 71%;
+}
+.KPI-settings-list td {
+    padding: 0.3em 0.4em !important;
+    text-align: right !important;
+    vertical-align: middle !important;
+    border-bottom: 1px dotted #999 !important;
+}
+.KPI-settings-list tr td:first-child {
+    text-align: left !important;
+}
+.KPI-settings-list-currentItem td {
+    background: #ccc !important;
+}
+
+
+/*-------------v---------------*/
+/*--       KPI report        --*/
+/*-------------v---------------*/
+.KPI-report {
+    overflow: hidden;
+}
+.KPI-report-gauge {
+    float: left;
+    margin: 0 3em 0 1em;
+}
+.KPI-report-data {
+    overflow: hidden;
+    color: #666;
+    margin-top: 1em;
+}
+.KPI-report-data > div {
+    overflow: hidden;
+}
+
+.KPI-report-name {
+    float: left;
+    font-weight: bold;
+    
+}
+
+.KPI-report-result {
+    float: left;
+    clear: both;
+    font-size: 3.5em;
+    margin: 0.3em 0 0 0;
+}
+
+.KPI-report-label {
+    float: left;
+    clear: both;
+    margin-bottom: 0.3em;
+}
+.KPI-report-value {
+    float: left;
+    margin-left: 0.5em;
+}
+
+
+
+
+/*-------------v---------------*/
+/*--Conversion Path Settings --*/
+/*-------------v---------------*/
+.CP-settings-rename span,
+.CP-settings-rename input,
+.CP-settings-rename label,
+.CP-settings-rename > div {
+    vertical-align: middle;
+    display: inline;
+}
+.CP-settings-newName {
+    margin: 1em 0 0 0.7em;
+}
+.CP-settings-renameInput {
+    height: 22px;
+}
+.CP-settings-groupLabel {
+    line-height: 2em;
+}
+.CP-settings-pageSelector {
+    clear: both;
+    overflow: hidden;
+    margin: 1em 0 1em 0.7em;
+}
+.CP-settings-pageSelector .epi-arrowButtonContainer {
+    height: auto !important;
+    padding: 7em 0.7em 0 0.7em !important;
+}
+.CP-settings-pageSelector .epi-arrowButtonContainer .epi-cmsButton {
+    margin-right: 0 !important;
+}
+.CP-settings-Select {
+    width: 43.7%;
+}
+.CP-settings-pageSelector .EPEdit-sidSelectList {
+    height: 20em;
+    width: 100%;
+    padding: 0.3em 0;
+}
+.CP-settings-pageSelector .EPEdit-sidSelectList option {
+    padding: 0.2em 0.5em;
+}
+
+.CP-settings-buttonsArea {
+    clear: both;
+    float: right;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+.CP-settings-disabledItem {
+    color: #888888;
+}
+
+
+
+/*-------------v---------------*/
+/*-- CP settings page select --*/
+/*-------------v---------------*/
+.widgetWindow {
+    width: 100%;
+    overflow: hidden;
+}
+.widgetHeader {
+    width: 716px;
+    float: left;
+    overflow: hidden;
+    margin: 0.7em;
+}
+.widgetBody {
+    width: 716px;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    margin: 0.7em 0.7em 0 0.7em;
+}
+#DivThumbnails, .DivThumbnails {
+    width: 780px;
+    overflow: hidden;
+}
+#DivStrings, .DivStrings {
+    overflow: hidden;
+}
+.widgetHeader .epi-cmsButton {
+    margin-right: 0;
+}
+.deletePageLink,
+.deletePageLink a {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+}
+.deletePageLink a {
+    text-indent: -1000px;
+    background: #fff url("Resources/cmosprite2.png") no-repeat left -234px;
+}

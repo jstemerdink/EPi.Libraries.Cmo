@@ -1,0 +1,43 @@
+﻿.ui-daterange {
+    margin-left: 0.5em;
+}
+
+.ui-daterange-startDate,
+.ui-daterange-endDate {
+    display: inline-block;
+    color: #1A4AA4;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
+.ui-daterange-delimiter {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.ui-daterange-popup {
+    border: 1px solid #8d8d8d;
+    padding: 0.5em;
+    background: #fff;
+    overflow: hidden;
+}
+.ui-daterange-datepickersArea {
+    float: left;
+    clear: both;
+    overflow: hidden;
+}
+.ui-daterange-datepickersArea {
+    padding-bottom: 3em;
+}
+.ui-daterange-buttonsArea {
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+}
+
+.ui-daterange-startDatepicker,
+.ui-daterange-endDatepicker {
+    float: left;
+}
+.ui-daterange-startDatepicker {
+    margin-right: 1em;
+}
