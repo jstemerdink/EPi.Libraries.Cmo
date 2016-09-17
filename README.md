@@ -1,4 +1,4 @@
-# EPi.Libraries.Favicons
+# EPi.Libraries.Cmo
 
 By Jeroen Stemerdink
 
