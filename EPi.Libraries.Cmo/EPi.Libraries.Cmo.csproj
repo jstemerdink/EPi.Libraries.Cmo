@@ -231,7 +231,6 @@
     <Content Include="modules\_protected\CMO\Views\Shared\NotAuthorized.ascx" />
     <Content Include="modules\_protected\CMO\Views\Shared\NotConfigured.ascx" />
     <Content Include="modules\_protected\CMO\Views\Shared\NotConfiguredMobile.ascx" />
-    <Content Include="Scripts\EPiServer.Cmo.Database_Create.sql" />
     <Content Include="web.config.install.xdt" />
   </ItemGroup>
   <ItemGroup>
