@@ -1,0 +1,219 @@
+﻿@page {
+	margin: 1cm;
+}
+
+html.epi-scrollableArea {
+    overflow-y: auto !important;
+}
+body {
+	color: #000 !important;
+	background: #fff !important;
+	height: auto !important;
+}
+body form {
+    overflow: visible !important;
+}
+
+#epi-applicationBody {
+    overflow: visible !important;
+}
+.bodyMain {
+     background: #fff !important;
+     border-left: none !important;
+     overflow: visible !important;
+}
+
+.epi-navigation {
+    display: none;
+}
+.epi-tabView {
+    display: none;
+}
+.epitoolbararea {
+    display: none;
+}
+
+.pagebreak {
+    page-break-before: always;
+}
+
+/* ----------------- */
+/* Specific elements */
+/* ----------------- */
+
+/* Question icon on page heading */
+.EPEdit-CommandTool {
+    display: none;
+}
+
+
+/* Table */
+table.epi-default {
+    border-collapse: separate !important;
+    *border-collapse: collapse !important; /*IE7 and below */
+    margin-bottom: 2em !important;
+    border: none !important;
+}
+
+table.epi-default th {
+    background: none !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-shadow: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 0 0 0.4em 0 !important;
+}
+table.epi-default td {
+    border-bottom: 1px solid #bebebe !important;
+    border-right: 1px solid #bebebe !important;
+}
+table.epi-default tr td:first-child {
+    border-left: 1px solid #bebebe !important;
+}
+table.epi-default td.cellFieldName {
+    border-right: none !important;
+}
+table.epi-default td.cellNoBorder {
+    border-bottom: none !important;
+}
+table.epi-default table td,
+table.epi-default table td:first-child {
+    border: none !important;
+    border-width: 0 !important;
+}
+
+
+/* Date Range */
+.epi-dateRange {
+    margin: 0;
+    font-weight: bold;
+}
+.ui-daterange {
+    font-weight: normal;
+}
+.ui-daterange-startDate,
+.ui-daterange-endDate {
+    color: #000;
+    border: none;
+    cursor: default;
+}
+
+/* Line Chart */
+.periodSelectorList {
+    font-weight: bold;
+}
+.periodSelectorListValuePrint {
+    font-weight: normal;
+}
+
+/* Page Selector */
+.pageSelectorTable td {
+    border-top: 1px solid #bebebe !important;
+}
+.pageSelectorTable thead {
+    display: none;
+}
+.pageSelectorTable .widgetHeader {
+    display: none;
+}
+.pageSelectorTable .widgetBody {
+    margin: 0.7em;
+}
+.pageViewCellThumb {
+    display: none;
+}
+.pageViewCellThumb.selected {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+.pageViewThumb {
+    float: left;
+    margin-right: 2em;
+    background: none;
+    padding: 0;
+    border: 3px solid black;
+}
+.pageName {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    display: block;
+    margin: 0;
+    clear: none;
+}
+
+/* Conversion Path */
+.conversionPathContainer {
+    width: 98.5%;
+}
+
+.conversionPathRowCollapseExpand {
+    display: none !important;
+}
+.conversionPathRow {
+    display: table-row !important;
+}
+html* .conversionPathRow { /* IE7 only hack, because it doesn't support display: table-row */
+    display: inline !important;
+}
+
+.conversionPathTable {
+    page-break-before: always;
+}
+.conversionPathTable:first-child {
+    page-break-before: auto;
+}
+.conversionPathThumbImage {
+    border: 3px solid black;
+    padding: 0;
+    background: none;
+}
+.conversionPathArrow .arrowInOut,
+.arrowTransition {
+    text-indent: 0;
+    font-size: 1.4em;
+    line-height: 0.8em;
+    background: none;
+}
+
+
+/* LPO Report */
+.LPOReport-mainValue {
+    margin-top: -0.6em;
+}
+.LPOReportStats {
+    color: #000;
+}
+.LPOReportThumbnail img {
+    border: 3px solid black;
+    padding: 0;
+    background: none;
+}
+
+.LPOReportWinner {
+    border: 1px solid #009900;
+}
+.LPOReport-winnerHolder .epi-cmsButton {
+    display: none;
+}
+.LPOReport-winnerMark-icon {
+    display: none;
+}
+.LPOReport-winnerMark-text {
+    margin-left: 0;
+}
+
+/* KPI Report */
+.KPI-report {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Funnel */
+.CM-report-funnel {
+    display: inline-block;
+}

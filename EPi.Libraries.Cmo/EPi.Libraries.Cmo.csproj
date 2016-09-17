@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50717798-20E9-4856-BCD3-25D28E779461}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EPi.Libraries.Cmo</RootNamespace>
+    <AssemblyName>EPi.Libraries.Cmo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="modules\_protected\CMO\MasterPages\Cmo.Master" />
+    <Content Include="modules\_protected\CMO\module.config" />
+    <Content Include="modules\_protected\CMO\Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CmoWebServices\GenericKpiService.svc" />
+    <Content Include="modules\_protected\CMO\ClientBin\EPiServer.Cmo.Chart.xap" />
+    <Content Include="modules\_protected\CMO\ClientBin\EPiServer.Cmo.Gauge.xap" />
+    <Content Include="modules\_protected\CMO\ClientResources\CampaignStatistics\CampaignStatisticsGadget.css" />
+    <Content Include="modules\_protected\CMO\ClientResources\CampaignStatistics\CampaignStatisticsGadget.js" />
+    <Content Include="modules\_protected\CMO\ClientResources\CampaignStatistics\Icon.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\CampaignStatistics\warning.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\KpiSummary\Icon.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\KpiSummary\KpiSummaryGadget.css" />
+    <Content Include="modules\_protected\CMO\ClientResources\KpiSummary\KpiSummaryGadget.js" />
+    <Content Include="modules\_protected\CMO\ClientResources\LiveMonitor\Icon.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\LiveMonitor\LiveMonitorGadget.css" />
+    <Content Include="modules\_protected\CMO\ClientResources\LiveMonitor\LiveMonitorGadget.js" />
+    <Content Include="modules\_protected\CMO\ClientResources\LpoReport\Icon.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\LpoReport\LpoReportGadget.css" />
+    <Content Include="modules\_protected\CMO\ClientResources\LpoReport\LpoReportGadget.js" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\btnArchive.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\btnStart.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\btnStop.png" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\Global.css" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\marker.gif" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\Silverlight.js" />
+    <Content Include="modules\_protected\CMO\ClientResources\SharedResources\ToolbarBg.gif" />
+    <Content Include="modules\_protected\CMO\CMConversionReport.aspx" />
+    <Content Include="modules\_protected\CMO\CMList.aspx" />
+    <Content Include="modules\_protected\CMO\CMLiveMonitor.aspx" />
+    <Content Include="modules\_protected\CMO\CMPageReport.aspx" />
+    <Content Include="modules\_protected\CMO\CMReport.aspx" />
+    <Content Include="modules\_protected\CMO\CMReportKpi.aspx" />
+    <Content Include="modules\_protected\CMO\CMSettings.aspx" />
+    <Content Include="modules\_protected\CMO\DatabaseUpdate.aspx" />
+    <Content Include="modules\_protected\CMO\Default.aspx" />
+    <Content Include="modules\_protected\CMO\LpoTestList.aspx" />
+    <Content Include="modules\_protected\CMO\LpoTestResults.aspx" />
+    <Content Include="modules\_protected\CMO\LpoTestSettings.aspx" />
+    <Content Include="modules\_protected\CMO\Scripts\CampaignPageSelector.js" />
+    <Content Include="modules\_protected\CMO\Scripts\cmo.min.js" />
+    <Content Include="modules\_protected\CMO\Scripts\CmoScripts.js" />
+    <Content Include="modules\_protected\CMO\Scripts\ConversionPath.js" />
+    <Content Include="modules\_protected\CMO\Scripts\ConversionPathEditor.js" />
+    <Content Include="modules\_protected\CMO\Scripts\jQuery\jquery-1.3.2-vsdoc.js" />
+    <Content Include="modules\_protected\CMO\Scripts\jQuery\jquery.cookie.js" />
+    <Content Include="modules\_protected\CMO\Scripts\jQuery\jquery.selectboxes.pack.js" />
+    <Content Include="modules\_protected\CMO\Scripts\KpiEditor.js" />
+    <Content Include="modules\_protected\CMO\Scripts\pagetreeview.js" />
+    <Content Include="modules\_protected\CMO\Scripts\Silverlight.js" />
+    <Content Include="modules\_protected\CMO\Scripts\system.js" />
+    <Content Include="modules\_protected\CMO\Scripts\ui.daterange.js" />
+    <Content Include="modules\_protected\CMO\Scripts\ui.ddselector.js" />
+    <Content Include="modules\_protected\CMO\Scripts\ui.list.js" />
+    <Content Include="modules\_protected\CMO\Scripts\ui.passwordInput.js" />
+    <Content Include="modules\_protected\CMO\Settings\DataAggregation.aspx" />
+    <Content Include="modules\_protected\CMO\Settings\ExternalApplications.aspx" />
+    <Content Include="modules\_protected\CMO\Settings\General.aspx" />
+    <Content Include="modules\_protected\CMO\Settings\LiveMonitor.aspx" />
+    <Content Include="modules\_protected\CMO\Settings\PageThumbnails.aspx" />
+    <Content Include="modules\_protected\CMO\Settings\Security.aspx" />
+    <Content Include="modules\_protected\CMO\Styles\cmo.min.css" />
+    <Content Include="modules\_protected\CMO\Styles\cmo2.css" />
+    <Content Include="modules\_protected\CMO\Styles\cmoprint.css" />
+    <Content Include="modules\_protected\CMO\Styles\pagetreeview.css" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\AjaxLoaderWhite.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ArrowDown.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\campaignThumb.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\CmoMenuIcon.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\cmosprite2.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\I.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\L.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\Lminus.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\loading.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\Lplus.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\T.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\Tminus.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ExplorerTree\Tplus.gif" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\snapshot.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\snapshot_empty.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_glass_75_ffffff_1x400.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-icons_222222_256x240.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-icons_222222_256x240dark.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-icons_2e83ff_256x240.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-icons_454545_256x240.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-icons_888888_256x240.png" />
+    <Content Include="modules\_protected\CMO\Styles\Resources\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="modules\_protected\CMO\Styles\ui.core.css" />
+    <Content Include="modules\_protected\CMO\Styles\ui.datepicker.css" />
+    <Content Include="modules\_protected\CMO\Styles\ui.daterange.css" />
+    <Content Include="modules\_protected\CMO\Styles\ui.ddselector.css" />
+    <Content Include="modules\_protected\CMO\Styles\ui.dialog.css" />
+    <Content Include="modules\_protected\CMO\Styles\ui.passwordInput.css" />
+    <Content Include="modules\_protected\CMO\Styles\ui.theme.css" />
+    <Content Include="modules\_protected\CMO\Trace\Services\TraceService.svc" />
+    <Content Include="modules\_protected\CMO\Units\BrowsersPieChart.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CampaignGeneralSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CampaignReportPageSelector.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CampaignSettingsPageSelector.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CampaignsList.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CMCampaignCountryChart.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CMCampaignFunnelChart.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CMCampaignLineChart.ascx" />
+    <Content Include="modules\_protected\CMO\Units\CMReportValuesList.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\CMConversionPathEditor.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\CMConversionReport.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\ConversionPathEditor.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\ConversionPathList.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\ConversionPathPageView.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\ConversionPathSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ConversionPath\ConversionPathView.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Kpi\CMKpiSummary.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Kpi\CmReportGauge.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Kpi\KpiReportRow.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Kpi\KpiSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Kpi\KpiSettingsEditor.ascx" />
+    <Content Include="modules\_protected\CMO\Units\LanguageSelectorControl.ascx" />
+    <Content Include="modules\_protected\CMO\Units\LpoGaugeChart.ascx" />
+    <Content Include="modules\_protected\CMO\Units\LpoPageSelector.ascx" />
+    <Content Include="modules\_protected\CMO\Units\LpoTestList.ascx" />
+    <Content Include="modules\_protected\CMO\Units\LpoWarningPlugin.ascx" />
+    <Content Include="modules\_protected\CMO\Units\PageTree.ascx" />
+    <Content Include="modules\_protected\CMO\Units\PageTreeMultiSelect.ascx" />
+    <Content Include="modules\_protected\CMO\Units\PageVersionList.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ProcessingProgress.ascx" />
+    <Content Include="modules\_protected\CMO\Units\ReportSection.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Tabs\MainTabStrip.ascx" />
+    <Content Include="modules\_protected\CMO\Units\Toolbar.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\BrowserStatistics.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\BrowserStatisticsMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\CampaignDetails.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\EditSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\Index.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\IndexMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\PeriodTypes.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\Summary.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\SummaryMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\VisitsAndPageViews.ascx" />
+    <Content Include="modules\_protected\CMO\Views\CampaignStatistics\VisitsAndPageViewsMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\KpiSummary\EditSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Views\KpiSummary\Index.ascx" />
+    <Content Include="modules\_protected\CMO\Views\KpiSummary\IndexMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\KpiSummary\IndexShared.ascx" />
+    <Content Include="modules\_protected\CMO\Views\KpiSummary\KpiBar.ascx" />
+    <Content Include="modules\_protected\CMO\Views\KpiSummary\KpiGauge.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LiveMonitor\EditSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LiveMonitor\Index.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\EditSettings.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\Index.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\IndexCompact.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\IndexMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\IndexMobileCompact.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\LpoGauge.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\TestDetails.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\TestPageBar.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\TestPageDetails.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\TestPageDetailsCompact.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\TestPageDetailsMobile.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\TestPageDetailsMobileCompact.ascx" />
+    <Content Include="modules\_protected\CMO\Views\LpoReport\Toolbar.ascx" />
+    <Content Include="modules\_protected\CMO\Views\Shared\NotAuthorized.ascx" />
+    <Content Include="modules\_protected\CMO\Views\Shared\NotConfigured.ascx" />
+    <Content Include="modules\_protected\CMO\Views\Shared\NotConfiguredMobile.ascx" />
+    <Content Include="web.config.install.xdt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo.cs" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2922</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2922/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

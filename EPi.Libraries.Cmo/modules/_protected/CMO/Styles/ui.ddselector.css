@@ -1,0 +1,114 @@
+﻿.ui-ddselector
+{
+	display: inline-block;
+	height: 16px;
+	border: solid 1px #B4B4B4;
+	background-color: #fff;
+	width:240px;
+}
+.ui-ddselector .ddvaluebox_div,
+.ui-ddselector a.ddvaluebox,
+.ui-ddselector a:link.ddvaluebox,
+.ui-ddselector a:visited.ddvaluebox{
+	display: block;
+	float: left;
+	position: relative;
+	height: 1.286em;
+	width: 100%;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 1px 0px;
+	line-height: 1.1em;
+	/*border: solid 1px #202121; */
+	color: #000;
+}
+.ui-ddselector a:hover.ddvaluebox {
+	color: #dadde0;
+}
+.ui-ddselector .ddicon {
+	display: inline-block;
+	position: absolute;
+	width: 15px;
+	height: 16px;
+	right: 0px;
+	top: 0px;
+	border-left: 1px solid #B4B4B4;
+	background: url("Resources/ArrowDown.gif") center center no-repeat;
+}
+.ui-ddselector .ddiconup {
+	background: url("Resources/ArrowDown.gif") center center no-repeat;
+}
+.ui-ddselector .ddlimiter {
+	display: block;
+	overflow: visible;
+	white-space: nowrap;
+	padding-left: 25px;
+	margin-top: -1px;
+	line-height: 1.3em;
+}
+ul.ui-ddselector-ul
+{
+	top: 45px;
+    position: absolute;
+	background-color: #fff;
+	border: 1px solid #B4B4B4;
+	border-top: dotted 1px #B4B4B4;
+	margin-left: -1px;
+	margin-right: 2px;
+	padding-top: 1px;
+	z-index: 9999;
+}
+ul.ui-ddselector-ul li
+{
+	cursor: pointer;
+	line-height: 1.2em;
+	padding: 1px 0px 1px 6px;
+	color: #000;
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+	width: 94%;
+	height: 15px;
+    padding-left: 25px;
+}
+ul.ui-ddselector-ul li.last
+{
+	/*border-bottom: 1px solid #202121;*/
+}
+ul.ui-ddselector-ul li.hover span
+{
+	color: #202121;
+	background-color: #79cffa;
+}
+
+ul.ui-ddselector-ul li span,
+.ui-ddselector .ddvaluebox_div span.ddlimiter
+{
+}
+
+/*-- Disabled override styles --*/
+.ui-ddselector.disabled
+{
+}
+.ui-ddselector.disabled .ddvaluebox_div,
+.ui-ddselector.disabled a.ddvaluebox,
+.ui-ddselector.disabled a:link.ddvaluebox,
+.ui-ddselector.disabled a:visited.ddvaluebox{
+	color: #AAA;
+	cursor: text;
+}
+.ui-ddselector.disabled a:hover.ddvaluebox {
+	color: #AAA;
+}
+.ui-ddselector.disabled .ddicon {
+	background-image: none!important;
+	border-left: none;
+}
+.ui-ddselector.disabled a:hover.ddvaluebox .ddicon {
+	background-image: none;
+}
+
+.ui-ddselector-focused {
+    border: 1px dotted gray;
+}
+

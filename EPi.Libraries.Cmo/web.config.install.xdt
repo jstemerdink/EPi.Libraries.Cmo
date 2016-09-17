@@ -1,0 +1,75 @@
+﻿<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <appSettings xdt:Transform="InsertIfMissing" />
+
+  <appSettings>
+    <add key="ChartImageHandler" value="storage=memory;timeout=20;" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)" />
+    <add key="secretkey" value="56988409-c9be-4178-bcd7-a4f331c3786b" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)" />
+  </appSettings>
+
+  <system.webServer>
+    <modules>
+      <add name="CMOModule" type="EPiServer.Cmo.Cms.HttpModule.Module, EPiServer.Cmo.Cms" preCondition="managedHandler"  xdt:Transform="InsertIfMissing"  xdt:Locator="Match(name)" />
+    </modules>
+    <handlers>
+      <add verb="GET" name="StatisticsHandler" path="StatisticsHandler.axd" type="EPiServer.Cmo.Core.Statistics.StatisticsHandler, EPiServer.Cmo.Core"   xdt:Transform="InsertIfMissing"  xdt:Locator="Match(name)"/>
+      <add name="cachedimageservice" verb="GET" path="cachedimageservice.axd" type="ComponentArt.Web.Visualization.Charting.CachedImageService,ComponentArt.Web.Visualization.Charting"  xdt:Transform="InsertIfMissing"  xdt:Locator="Match(name)" />
+      <add verb="GET,HEAD,POST" name="ChartImageHandler" preCondition="integratedMode" path="ChartImg.axd" type="System.Web.UI.DataVisualization.Charting.ChartHttpHandler, System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"  xdt:Transform="InsertIfMissing"  xdt:Locator="Match(name)" />
+      <add verb="GET" name="CmoDownloadHandler" path="downloadkpi.axd" type="EPiServer.Cmo.Core.Statistics.DownloadHandler, EPiServer.Cmo.Core"  xdt:Transform="InsertIfMissing"  xdt:Locator="Match(name)" />
+    </handlers>
+  </system.webServer>
+
+  <episerver.framework>
+    <virtualRoles>
+      <providers>
+        <add name="CmoUsers" type="EPiServer.Cmo.Cms.Security.CmoUsersRole, EPiServer.Cmo.Cms" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
+        <add name="CmoAdmins" type="EPiServer.Cmo.Cms.Security.CmoAdminsRole, EPiServer.Cmo.Cms" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
+      </providers>
+    </virtualRoles>
+  </episerver.framework>
+
+  <connectionStrings>
+    <add name="CmoEntities" connectionString="provider connection string=&quot;Data Source={YOURDB}&quot;;metadata=res://*/Entities.CmoModel.csdl|res://*/Entities.CmoModel.ssdl|res://*/Entities.CmoModel.msl;provider=System.Data.SqlClient" providerName="System.Data.EntityClient" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
+  </connectionStrings>
+
+  <location path="episerver/CMO"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(path)" >
+    <system.web>
+      <httpRuntime maxRequestLength="1000000" />
+      <globalization requestEncoding="utf-8" responseEncoding="utf-8" />
+      <pages controlRenderingCompatibilityVersion="3.5" clientIDMode="AutoID" enableSessionState="true" enableViewState="true">
+        <controls>
+          <add tagPrefix="cmo" namespace="EPiServer.Cmo.UI.Units" assembly="EPiServer.Cmo.UI" />
+          <add tagPrefix="EPiServerUI" namespace="EPiServer.UI.WebControls" assembly="EPiServer.UI" />
+        </controls>
+      </pages>
+      <authorization>
+        <allow roles="CmoUsers, CmoAdmins" />
+        <deny users="*" />
+      </authorization>
+    </system.web>
+    <system.webServer>
+      <handlers>
+        <clear />
+        <add name="ThumbnailHandler" verb="*" path="thumbhandler.axd" type="EPiServer.Cmo.Cms.ThumbnailHandler.CmoThumbnailHandler" resourceType="Unspecified" requireAccess="Script" />
+        <add name="CartLicense" verb="*" path="CartLicense.axd" type="ComponentArt.Silverlight.Server.LicensingHandler, ComponentArt.Silverlight.Server" />
+        <add verb="GET,HEAD,POST" name="ChartImageHandler" preCondition="integratedMode" path="ChartImg.axd" type="System.Web.UI.DataVisualization.Charting.ChartHttpHandler, System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+        <add name="cachedimageservice" verb="GET" path="cachedimageservice.axd" type="ComponentArt.Web.Visualization.Charting.CachedImageService,ComponentArt.Web.Visualization.Charting" />
+        <add name="svc-Integrated-4.0" path="*.svc" verb="*" type="System.ServiceModel.Activation.ServiceHttpHandlerFactory, System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" preCondition="integratedMode,runtimeVersionv4.0" />
+        <add name="webresources" path="WebResource.axd" verb="GET" type="System.Web.Handlers.AssemblyResourceLoader" />
+        <add name="PageHandlerFactory-Integrated" path="*.aspx" verb="GET,HEAD,POST,DEBUG" type="System.Web.UI.PageHandlerFactory" modules="ManagedPipelineHandler" scriptProcessor="" resourceType="Unspecified" requireAccess="Script" allowPathInfo="false" preCondition="integratedMode" responseBufferLimit="4194304" />
+        <add name="SimpleHandlerFactory-Integrated" path="*.ashx" verb="GET,HEAD,POST,DEBUG" type="System.Web.UI.SimpleHandlerFactory" modules="ManagedPipelineHandler" scriptProcessor="" resourceType="Unspecified" requireAccess="Script" allowPathInfo="false" preCondition="integratedMode" responseBufferLimit="4194304" />
+        <add name="WebServiceHandlerFactory-Integrated" path="*.asmx" verb="GET,HEAD,POST,DEBUG" type="System.Web.Services.Protocols.WebServiceHandlerFactory, System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" modules="ManagedPipelineHandler" scriptProcessor="" resourceType="Unspecified" requireAccess="Script" allowPathInfo="false" preCondition="integratedMode" responseBufferLimit="4194304" />
+        <add name="wildcard" path="*" verb="*" type="EPiServer.Web.StaticFileHandler, EPiServer.Framework" />
+      </handlers>
+    </system.webServer>
+  </location>
+
+  <location path="episerver/CMO/Settings"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(path)" >
+    <system.web>
+      <authorization>
+        <allow roles="CmoAdmins" />
+        <deny users="*" />
+      </authorization>
+    </system.web>
+  </location>
+
+</configuration>

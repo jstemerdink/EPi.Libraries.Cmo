@@ -1,0 +1,530 @@
+h1,h2,h3,h4,h5,h6{font-family:Helvetica,Arial,Sans-Serif}
+.epi-contentContainer{min-width:61em}
+table.epi-default table td{padding:.3em .4em}
+.epi-localNavigation li li a{overflow:hidden}
+.epi-localNavigation li li a span{cursor:pointer}
+.formValidators{display:inline}
+.epi-toolbarOnPage{border-top:1px solid #8B8B8B}
+.epi-tabView+.epi-toolbarOnPage{border-top:0}
+button{font:1em "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,Sans-Serif}
+.epi-alignMiddle{vertical-align:middle!important}
+.epi-alignMiddleContent input,.epi-alignMiddleContent button,.epi-alignMiddleContent .epi-cmsButton,.epi-alignMiddleContent .formValidators,.epi-alignMiddleContent select,.epi-alignMiddleContent label{vertical-align:middle!important}
+.epi-noWrap{white-space:nowrap}
+.deleted{text-decoration:line-through}
+.hidden{display:none!important;clear:both!important}
+.visibilityHidden{visibility:hidden!important}
+.epi-color-red{color:#f00!important}
+.epi-color-green{color:#0f0}
+.epi-font-small{font-size:.8em}
+.epi-inline{display:inline}
+.epi-inlineBlock{display:inline-block}
+.epi-relative{position:relative}
+table td.cellNoBorder{border:0}
+table td.cellFieldValue{text-align:right;border-right:1px solid #bebebe}
+table td.cellPaddingLeft{padding-left:2em!important}
+table td.cellPaddingRight{padding-right:2em!important}
+.alignCenter{text-align:center}
+.processing{min-height:16px;padding-left:20px;background:transparent url("Resources/AjaxLoaderWhite.gif") no-repeat left top}
+.epi-cmsButton-iconOnly{width:18px;height:18px}
+.epi-cmsButton-CalendarMonth{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 0}
+.epi-cmsButton-CalendarWeek{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -18px}
+.epi-cmsButton-CalendarDay{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -36px}
+.epi-cmsButton-CalendarHour{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -54px}
+.epi-cmsButton-Winner{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -72px}
+.epi-cmsButton-Start{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -90px}
+.epi-cmsButton-Stop{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -108px}
+.epi-cmsButton-ExportCMO{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -126px}
+.epi-cmsButton-Left{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -144px}
+.epi-cmsButton-Right{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -162px}
+.epi-cmsButton-Up{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -180px!important}
+.epi-cmsButton-Down{width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -198px!important}
+.epi-cmsButton-Archive{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -216px}
+.epi-cmsButton-ViewThumbnails{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -252px}
+.epi-cmsButton-ViewList{background:transparent url("Resources/cmosprite2.png") no-repeat 0 -270px}
+.epi-dateRange{overflow:hidden;margin:2em 0 .8em 0}
+.DatabaseVerificationMessagePanel{background-color:#dadde0;display:block;text-align:left;vertical-align:middle!important;font-family:"Lucida Grande","Lucida Sans-Serif Unicode",Arial,Verdana,Sans-Serif;color:Black;font-size:.8em;font-weight:bold;line-height:1.2em;padding:1em 1.5em 1em 1.5em;position:relative}
+.DatabaseVerificationMessagePanel{background-color:transparent;border:2px solid #f66}
+.DatabaseVerificationMessagePanel a{color:#1A4AA4}
+.bodyMainWrapper{float:left;overflow:visible;display:block;width:100%;height:100%}
+.bodyMain{display:block;overflow-x:hidden;overflow-y:auto;float:none;position:relative;background:#f4f4f4;border-left:1px solid #8d8d8d}
+.bodySidebar{display:block;float:left;width:220px}
+.bodySidebarToggler{overflow:visible;display:inline-block;float:left;width:9px;margin:14em 0 0 -9px}
+.bodySidebarToggler a{display:inherit;overflow:visible;width:7px;height:96px;float:right;background:url("Resources/cmosprite2.png") 0 -288px no-repeat}
+.bodySidebarToggler a:hover{display:inherit;overflow:visible;width:9px;height:96px;float:right;margin-left:-2px;background:url("Resources/cmosprite2.png") 0 -288px no-repeat}
+.bodySidebarTogglerShow a{display:inherit;width:7px;height:96px;float:left;background:url("Resources/cmosprite2.png") -7px -288px no-repeat}
+.bodySidebarTogglerShow a:hover{display:inherit;width:9px;height:96px;float:left;margin-right:-2px;background:url("Resources/cmosprite2.png") -5px -288px no-repeat}
+.bodySidebarTogglerShow{overflow:visible;display:inline-block;float:left;width:9px;margin-top:13em}
+.epi-contentContainer h1{border-bottom:0;margin:0;padding:0}
+.headingMeta{margin-right:1.5em}
+.headingMetaName{margin-right:.3em;font-weight:bold}
+.cmo-languageLabel img{vertical-align:middle;margin-right:.3em}
+.testsList td{max-width:300px;word-wrap:break-word}
+table.epi-default th span.epi-sort-asc{background:transparent url("Resources/cmosprite2.png") no-repeat right -384px;padding-right:10px}
+table.epi-default th span.epi-sort-desc{background:transparent url("Resources/cmosprite2.png") no-repeat right -400px;padding-right:10px}
+.periodSelectorList{margin-right:25px}
+.periodSelectorList span.epi-cmsButton,.periodSelectorList span.epi-cmsButtondisabled{margin:0;padding:1px 0 1px 1px}
+.epi-cmsButtonActive{display:inline-block;position:relative;border:1px solid #aeaeae}
+.epi-cmsButtonContainer{display:inline-block;position:relative}
+.reportCampaignLabel{margin:5px .5em 0 0}
+.disabledPeriod{position:absolute;left:0;top:0;height:100%;width:100%}
+.CM-report-lineChart img{width:98.5%;height:245px}
+.CM-report-funnel-noData{display:inline-block;width:330px;height:100px;background:#ddd;margin:10px 0;padding-top:60px;text-align:center}
+.conversionPathRowCollapseExpand td{text-align:center}
+.conversionPathTableCollapsed .conversionPathRow{display:none}
+.conversionPathExpandLink,.conversionPathCollapseLink{border-bottom:1px dotted}
+.conversionPathTable .conversionPathExpandLink{display:none}
+.conversionPathTable .conversionPathCollapseLink{display:inline}
+.conversionPathTableCollapsed .conversionPathExpandLink{display:inline}
+.conversionPathTableCollapsed .conversionPathCollapseLink{display:none}
+.conversionPathContainer{width:100%;display:inline-block;overflow:hidden;padding:1em 0}
+.conversionPathBlock{float:left;display:block;overflow:hidden}
+.conversionPathSide{width:36.5%;min-height:68px;position:relative;overflow:hidden}
+.conversionPathLinks{float:left;white-space:nowrap;margin-left:55px;width:79%;overflow:hidden}
+.conversionPathLinks strong{white-space:normal}
+.conversionPathLinksLeft{margin-left:0}
+.conversionPathThumb{width:25%;text-align:center}
+.conversionPathArrow{display:inline-block;text-align:center;float:none;height:2em}
+.conversionPathArrow .arrowInOut{display:block;float:left;height:18px;width:18px;margin-left:.2em;background:url('Resources/cmosprite2.png') no-repeat 0 -164px;text-indent:-10000px}
+.conversionPathArrow .reportCampaignLabel{float:left;margin:0}
+.conversionPathArrow.in{position:absolute;right:0;top:50px}
+.conversionPathArrow.out{position:absolute;left:0;top:50px}
+.arrowTransition{display:inline-block;width:18px;height:18px;margin-top:.2em;background:url('Resources/cmosprite2.png') no-repeat 0 -198px;text-indent:-10000px}
+.conversionPathThumbImage{width:160px;padding:3px;background:#d1d1d1;-moz-border-radius:3px;-webkit-border-radius:3px}
+.LPOSettings label{vertical-align:top!important;margin-top:.3em}
+.LPOSettings .epi-cmsButton,.LPOSettings .epi-cmsButtondisabled{vertical-align:top}
+.LPOReportHeading{padding-left:226px;margin-left:3em;font-size:1.2em;font-weight:bold;line-height:2em}
+.LPOReportItem{overflow:hidden;clear:both;padding:0 1em}
+.LPOReportWinner{background:#e8efe8}
+.LPOReportItemInner{width:100%;overflow:hidden;border-top:1px solid #d1d1d1;padding:1em 0 .5em 0}
+.LPOReportName{width:100%;float:left;font-size:1.2em;margin-bottom:.5em}
+.LPOReportThumbnail{float:left;width:226px}
+.LPOReportThumbnail img{width:218px;height:161px;background:#d1d1d1;padding:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.LPOReportGauge{float:right;width:auto}
+.LPOReportStats{color:#666;margin-left:226px;padding-left:2em}
+.LPOReportStats>div{overflow:hidden}
+.LPOReport-mainValue{float:left;margin:-0.9em 0 1em 0;font-weight:bold}
+.LPOReport-mainValue-best{color:#090}
+.LPOReport-mainValue-worst{color:#900}
+.LPOReport-mainValue-major{font-size:3.5em}
+.LPOReport-mainValue-minor{margin-left:.2em;font-size:1.8em}
+.LPOReport-value{float:left;clear:both;margin-bottom:.3em;white-space:nowrap}
+.LPOReport-value span{margin-left:.5em;font-weight:bold}
+.LPOReport-winnerHolder{float:left;margin-top:1em}
+.LPOReport-winnerMark{display:block;overflow:hidden}
+.LPOReport-winnerMark-icon{float:left;display:block;width:18px;height:18px;background:transparent url("Resources/cmosprite2.png") no-repeat 0 -72px}
+.LPOReport-winnerMark-text{display:block;line-height:18px;float:left;margin-left:.5em;color:#090;font-weight:bold;font-size:1.2em}
+.reportCampaignRow{display:block;width:100%;overflow:hidden}
+span.red{color:#f32}
+span.green{color:#0fd000}
+.pageName{display:inline-block;text-align:center;clear:left;overflow:hidden;line-height:1.2em;margin:.5em 0}
+.pageNameContent{line-height:1.4em}
+.reportGauge{display:inline-block;clear:left;overflow:hidden;width:202px;height:140px}
+.reportGauge div{width:99.5%!important;overflow:hidden!important}
+.dialogPageSelect{display:block;width:100%;height:90%;overflow:hidden}
+.dialogPageSelectDiv{display:block;float:left;position:relative;overflow:auto;width:99%;height:99%;border:1px solid #8d8d8d;background-color:#e3e3e3;color:#202121}
+.dialogPageSelectHeading{width:100%}
+.dialogPageSelectHeadingLeft,.dialogPageSelectHeadingRight{width:47%;float:left;line-height:1.5em}
+.dialogPageSelectHeadingRight{margin-left:30px}
+.dialogPageSelect .dialogPageSelectDiv{width:47%}
+.dialogPageSelectorChoice{display:block;float:left;width:26px;margin:60px 0 0 2px}
+ul.selectedPages{font-family:"Lucida Grande","Lucida Sans-Serif Unicode",Arial,Verdana,Sans-Serif;font-size:.9em;font-weight:bold}
+ul.selectedPages a,ul.selectedPages a:visited{display:block;padding:.1em .3em;color:#202121;font-weight:normal}
+ul.selectedPages a:hover{color:#dadde0;background-color:#454647}
+ul.selectedPages li.selected a{background-color:#a4a8ab}
+ul.selectedPages li.selected a:hover{background-color:#a4a8ab;color:#202121}
+#MultiselectDialogDiv .ui-dialog-buttonpane button{width:7em!important}
+.used{background-color:Silver}
+.nolang{font-style:italic}
+.notpublished{font-style:italic}
+.notvisible{font-style:italic}
+.pageScrollContent{display:block;overflow:visible}
+.pageViewCellThumb{display:inline-block;float:left;overflow:hidden;white-space:normal;float:left;width:166px;text-align:center;padding:0 22px 15px 0}
+.pageViewCellThumb:first-child{padding-left:0}
+.pageViewCellThumb.overallCampaign{font-style:italic}
+.pageViewCellThumb.overallCampaign img{background-color:#666}
+.pageViewCellList{display:block;width:30%;white-space:normal;float:left;margin:0 3% .5em 0;padding-left:.3%;overflow:hidden;position:relative;min-height:18px}
+.pageViewCellList.overallCampaign{width:100%;margin:0 0 .5em 0;font-weight:bold}
+.pageViewCellList .reportCampaignLabel{overflow:hidden;display:block;white-space:nowrap!important;margin:0;padding-left:20px}
+.pageViewCellList .reportCampaignLabel .pageNameLink{white-space:nowrap}
+.pageViewCellThumb.selectedPage{border:solid 1px #79cffa}
+.pageViewCellThumb.selectedPage .pageNameContent{color:#79cffa!important}
+.pageViewCellThumb.selectedPage .pageNameContent.deleted{color:#f32!important}
+.pageScrollContent.pageSelector .pageViewCellList,.pageScrollContent.pageSelector .pageViewThumb{cursor:pointer}
+.pageScrollContent.pageSelector .pageViewCellList.noPointer,.pageScrollContent.pageSelector .pageViewThumb.noPointer{cursor:auto}
+.pageScrollContent.pageSelector .pageViewCellList .reportCampaignLabel{width:220px}
+.pageScrollContent.pageSelector .pageViewCellList:hover,.pageScrollContent.pageSelector .pageViewCellList.selected{background:#ccc}
+.pageScrollContent.pageSelector .pageViewCellList:hover .reportCampaignLabel{color:#202121!important}
+.pageViewCellList.selectedPage,.pageViewCellList:hover.selectedPage{background-color:#202121!important;color:#79cffa!important}
+.pageScrollContent.pageSelector .pageViewCellList:hover.selectedPage .reportCampaignLabel,.pageScrollContent.pageSelector .pageViewCellList.selectedPage .reportCampaignLabel{color:#79cffa!important}
+.pageScrollContent.pageSelector .pageViewCellList:hover.selectedPage .reportCampaignLabel.deleted,.pageScrollContent.pageSelector .pageViewCellList.selectedPage .reportCampaignLabel.deleted{color:#f32!important}
+.pageScrollContent.pageSelector .pageViewCellList:hover.selectedPage{cursor:default}
+a:hover.pageNameContent{color:#dadde0}
+.pageViewCellThumb a{display:inline;clear:left;text-align:center}
+.pageViewCellThumb a:hover.pageNameLink{cursor:pointer}
+.pageViewThumb{display:inline-block;clear:left;width:160px;height:120px;padding:3px;background:#D1D1D1;-moz-border-radius:3px;-webkit-border-radius:3px}
+.pageViewCellThumb.selected .pageViewThumb{background:#008dd5}
+span.pageNameLink,span.pageNameContent,a.pageNameLink,a:link.pageNameLink,a:visited.pageNameLink{display:block;overflow:hidden;clear:left;line-height:1.2em;max-height:4.8em}
+.epi-alignMiddleContent .inputButton{margin:0 .3em}
+.ui-dialog ul.versionList{clear:left;width:97%;height:96%;display:inline-block!important;font-size:1em;overflow:visible;padding-top:.5em}
+.ui-dialog ul.versionList li{display:block;float:left;clear:both;overflow:hidden;cursor:pointer;background-color:Transparent}
+.ui-dialog li.versionListHeader{float:none;font-weight:bold;background-color:#525354!important;color:#dadde0!important;width:100%;height:1.6em!important;cursor:default!important}
+.ui-dialog li.versionListRow{display:block;clear:left!important;overflow:visible!important;width:100%;color:#393a3b!important;cursor:pointer}
+.ui-dialog li.versionListRow.picked{background-color:#ccc!important;color:#202121!important}
+.ui-dialog span.versionListItem{display:block;overflow:hidden!important;float:left;text-align:left;padding:3px}
+.ui-dialog li.versionListHeader span.versionListItem{padding-top:.2em;height:1.6em!important}
+.ui-dialog li.versionListRow span.versionListItem{font-size:1em!important;height:100%}
+.ui-dialog span.versionListItem.col1{border-left:0;width:6%!important}
+.ui-dialog span.versionListItem.col2{width:25%!important}
+.ui-dialog span.versionListItem.col3{width:15%!important}
+.ui-dialog span.versionListItem.col4{width:27%!important}
+.ui-dialog span.versionListItem.col5{width:8%!important}
+.ui-dialog span.versionListItem.col6{width:8%!important}
+.KPI-settings-campaignKPI .KPI-settings-thumbnail img{background:#666}
+.KPI-settings-container{padding:1em;overflow:hidden}
+.KPI-settings-pageName{width:100%;float:left}
+.KPI-settings-thumbnail{float:left;width:166px;margin-right:2em}
+.KPI-settings-thumbnail img{width:160px;height:120px;padding:3px;background:#d1d1d1;-moz-border-radius:3px;-webkit-border-radius:3px}
+.KPI-settings-main{float:left;width:71%}
+.KPI-settings-list td{padding:.3em .4em!important;text-align:right!important;vertical-align:middle!important;border-bottom:1px dotted #999!important}
+.KPI-settings-list tr td:first-child{text-align:left!important}
+.KPI-settings-list-currentItem td{background:#ccc!important}
+.KPI-report{overflow:hidden}
+.KPI-report-gauge{float:left;margin:0 3em 0 1em}
+.KPI-report-data{overflow:hidden;color:#666;margin-top:1em}
+.KPI-report-data>div{overflow:hidden}
+.KPI-report-name{float:left;font-weight:bold}
+.KPI-report-result{float:left;clear:both;font-size:3.5em;margin:.3em 0 0 0}
+.KPI-report-label{float:left;clear:both;margin-bottom:.3em}
+.KPI-report-value{float:left;margin-left:.5em}
+.CP-settings-rename span,.CP-settings-rename input,.CP-settings-rename label,.CP-settings-rename>div{vertical-align:middle;display:inline}
+.CP-settings-newName{margin:1em 0 0 .7em}
+.CP-settings-renameInput{height:22px}
+.CP-settings-groupLabel{line-height:2em}
+.CP-settings-pageSelector{clear:both;overflow:hidden;margin:1em 0 1em .7em}
+.CP-settings-pageSelector .epi-arrowButtonContainer{height:auto!important;padding:7em .7em 0 .7em!important}
+.CP-settings-pageSelector .epi-arrowButtonContainer .epi-cmsButton{margin-right:0!important}
+.CP-settings-Select{width:43.7%}
+.CP-settings-pageSelector .EPEdit-sidSelectList{height:20em;width:100%;padding:.3em 0}
+.CP-settings-pageSelector .EPEdit-sidSelectList option{padding:.2em .5em}
+.CP-settings-buttonsArea{clear:both;float:right;margin:.5em .5em .5em 0}
+.CP-settings-disabledItem{color:#888}
+.widgetWindow{width:100%;overflow:hidden}
+.widgetHeader{width:716px;float:left;overflow:hidden;margin:.7em}
+.widgetBody{width:716px;clear:both;float:left;overflow:hidden;margin:.7em .7em 0 .7em}
+#DivThumbnails,.DivThumbnails{width:780px;overflow:hidden}
+#DivStrings,.DivStrings{overflow:hidden}
+.widgetHeader .epi-cmsButton{margin-right:0}
+.deletePageLink,.deletePageLink a{position:absolute;width:18px;height:18px;top:0;left:0}
+.deletePageLink a{text-indent:-1000px;background:#fff url("Resources/cmosprite2.png") no-repeat left -234px}.ui-helper-hidden{display:none}
+.ui-helper-hidden-accessible{position:absolute;left:-99999999px}
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-helper-clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.ui-helper-clearfix{display:inline-block}
+/*\*/* html .ui-helper-clearfix{height:1%}
+.ui-helper-clearfix{display:block}
+/**/.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}
+.ui-state-disabled{cursor:default!important}
+.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}
+.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:20em;padding:.2em .2em 0;z-index:5000;font-size:.9em!important}
+.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}
+.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{cursor:pointer}
+.ui-datepicker .ui-datepicker-prev{left:2px}
+.ui-datepicker .ui-datepicker-next{right:2px}
+.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center;color:#333}
+.ui-datepicker .ui-datepicker-title select{float:left;font-size:1em;margin:1px 0}
+.ui-datepicker select.ui-datepicker-month-year{width:100%}
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year{float:right}
+.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}
+.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}
+.ui-datepicker td{border:0;padding:1px;text-align:right;vertical-align:middle}
+.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}
+.ui-datepicker td.ui-datepicker-unselectable span{color:#898b8c!important}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}
+.ui-datepicker-trigger{padding:0;margin:0 .3em}
+.ui-datepicker .ui-datepicker-today{background:#faa61b}
+.ui-datepicker .ui-datepicker-current-day{background:#202121}
+.ui-datepicker.ui-datepicker-multi{width:auto}
+.ui-datepicker-multi .ui-datepicker-group{float:left}
+.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}
+.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}
+.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}
+.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header{border-left-width:0}
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}
+.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}
+.ui-datepicker-row-break{clear:both;width:100%}
+.ui-datepicker-rtl{direction:rtl}
+.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}
+.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current{float:right}
+.ui-datepicker-rtl .ui-datepicker-group{float:right}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+.ui-datepicker-cover{display:none;display:block;position:absolute;z-index:-1;filter:mask();top:-4px;left:-4px;width:200px;height:200px}.ui-widget{font-family:Arial,Verdana,Sans-Serif;font-size:.8em}
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Arial,Verdana,Sans-Serif;font-size:.8em}
+.ui-widget-content{border:1px solid #8d8d8d;background:#fff!important;color:#202121}
+.ui-widget-content a{color:#202121}
+.ui-widget-header{border:0;background-color:#525354;color:#000;font-weight:bold}
+.ui-widget-header a{color:#202121}
+.ui-corner-all{-moz-border-radius:0!important}
+.ui-datepicker-calendar .ui-state-default,.ui-widget-content .ui-datepicker-calendar .ui-state-default{display:block;border:1px solid #d3d3d3;background:#e6e6e6 url(Resources/ui-bg_glass_75_e6e6e6_1x400.png) 0 50% repeat-x;font-weight:normal;color:#555;outline:0}
+.ui-datepicker-calendar .ui-state-default a,.ui-datepicker-calendar .ui-state-default a:link,.ui-datepicker-calendar .ui-state-default a:visited{display:block;color:#555;text-decoration:none;outline:0}
+.ui-widget-content .ui-datepicker-calendar .ui-state-hover,.ui-widget-content .ui-datepicker-calendar .ui-state-hover,.ui-widget-content .ui-datepicker-calendar .ui-state-focus,.ui-widget-content .ui-state-focus{display:block;border-color:#999;background:#dadada url(Resources/ui-bg_glass_75_dadada_1x400.png) 0 50% repeat-x;font-weight:normal;color:#212121;outline:0}
+.ui-state-hover a,.ui-state-hover a:hover{color:#212121;text-decoration:none;outline:0}
+.ui-state-active,.ui-widget-content .ui-state-active{border:1px solid #aaa;background:#fff url(Resources/ui-bg_glass_65_ffffff_1x400.png) 0 50% repeat-x;font-weight:normal;color:#212121;outline:0}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#212121;outline:0;text-decoration:none}
+.ui-state-highlight,.ui-widget-content .ui-state-highlight{border:1px solid #fcefa1;background:#fbf9ee url(Resources/ui-bg_glass_55_fbf9ee_1x400.png) 0 50% repeat-x;color:#363636}
+.ui-state-highlight a,.ui-widget-content .ui-state-highlight a{color:#363636}
+.ui-state-error,.ui-widget-content .ui-state-error{border:1px solid #cd0a0a;background:#fef1ec url(Resources/ui-bg_inset-soft_95_fef1ec_1x100.png) 0 50% repeat-x;color:#cd0a0a}
+.ui-state-error a,.ui-widget-content .ui-state-error a{color:#363636}
+.ui-state-error-text,.ui-widget-content .ui-state-error-text{color:#cd0a0a}
+.ui-state-disabled,.ui-widget-content .ui-state-disabled{background:0;opacity:.45}
+.ui-priority-primary,.ui-widget-content .ui-priority-primary{font-weight:bold}
+.ui-priority-secondary,.ui-widget-content .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}
+.ui-icon{width:16px;height:16px;background-image:url(Resources/ui-icons_222222_256x240dark.png)}
+.ui-widget-content .ui-icon{background-image:url(Resources/ui-icons_222222_256x240dark.png)}
+.ui-widget-header .ui-icon{background-image:url(Resources/ui-icons_222222_256x240dark.png)}
+.ui-state-default .ui-icon{background-image:url(Resources/ui-icons_222222_256x240dark.png)}
+.ui-state-hover .ui-icon{background-image:url(Resources/ui-icons_454545_256x240.png)}
+.ui-state-active .ui-icon{background-image:url(Resourcess/ui-icons_454545_256x240.png)}
+.ui-state-highlight .ui-icon{background-image:url(Resources/ui-icons_2e83ff_256x240.png)}
+.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(Resources/ui-icons_cd0a0a_256x240.png)}
+.ui-icon-carat-1-n{background-position:0 0}
+.ui-icon-carat-1-ne{background-position:-16px 0}
+.ui-icon-carat-1-e{background-position:-32px 0}
+.ui-icon-carat-1-se{background-position:-48px 0}
+.ui-icon-carat-1-s{background-position:-64px 0}
+.ui-icon-carat-1-sw{background-position:-80px 0}
+.ui-icon-carat-1-w{background-position:-96px 0}
+.ui-icon-carat-1-nw{background-position:-112px 0}
+.ui-icon-carat-2-n-s{background-position:-128px 0}
+.ui-icon-carat-2-e-w{background-position:-144px 0}
+.ui-icon-triangle-1-n{background-position:0 -16px}
+.ui-icon-triangle-1-ne{background-position:-16px -16px}
+.ui-icon-triangle-1-e{background-position:-32px -16px}
+.ui-icon-triangle-1-se{background-position:-48px -16px}
+.ui-icon-triangle-1-s{background-position:-64px -16px}
+.ui-icon-triangle-1-sw{background-position:-80px -16px}
+.ui-icon-triangle-1-w{background-position:-96px -16px}
+.ui-icon-triangle-1-nw{background-position:-112px -16px}
+.ui-icon-triangle-2-n-s{background-position:-128px -16px}
+.ui-icon-triangle-2-e-w{background-position:-144px -16px}
+.ui-icon-arrow-1-n{background-position:0 -32px}
+.ui-icon-arrow-1-ne{background-position:-16px -32px}
+.ui-icon-arrow-1-e{background-position:-32px -32px}
+.ui-icon-arrow-1-se{background-position:-48px -32px}
+.ui-icon-arrow-1-s{background-position:-64px -32px}
+.ui-icon-arrow-1-sw{background-position:-80px -32px}
+.ui-icon-arrow-1-w{background-position:-96px -32px}
+.ui-icon-arrow-1-nw{background-position:-112px -32px}
+.ui-icon-arrow-2-n-s{background-position:-128px -32px}
+.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}
+.ui-icon-arrow-2-e-w{background-position:-160px -32px}
+.ui-icon-arrow-2-se-nw{background-position:-176px -32px}
+.ui-icon-arrowstop-1-n{background-position:-192px -32px}
+.ui-icon-arrowstop-1-e{background-position:-208px -32px}
+.ui-icon-arrowstop-1-s{background-position:-224px -32px}
+.ui-icon-arrowstop-1-w{background-position:-240px -32px}
+.ui-icon-arrowthick-1-n{background-position:0 -48px}
+.ui-icon-arrowthick-1-ne{background-position:-16px -48px}
+.ui-icon-arrowthick-1-e{background-position:-32px -48px}
+.ui-icon-arrowthick-1-se{background-position:-48px -48px}
+.ui-icon-arrowthick-1-s{background-position:-64px -48px}
+.ui-icon-arrowthick-1-sw{background-position:-80px -48px}
+.ui-icon-arrowthick-1-w{background-position:-96px -48px}
+.ui-icon-arrowthick-1-nw{background-position:-112px -48px}
+.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}
+.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}
+.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}
+.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}
+.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}
+.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}
+.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}
+.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}
+.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}
+.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}
+.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}
+.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}
+.ui-icon-arrowreturn-1-w{background-position:-64px -64px}
+.ui-icon-arrowreturn-1-n{background-position:-80px -64px}
+.ui-icon-arrowreturn-1-e{background-position:-96px -64px}
+.ui-icon-arrowreturn-1-s{background-position:-112px -64px}
+.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}
+.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}
+.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}
+.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}
+.ui-icon-arrow-4{background-position:0 -80px}
+.ui-icon-arrow-4-diag{background-position:-16px -80px}
+.ui-icon-extlink{background-position:-32px -80px}
+.ui-icon-newwin{background-position:-48px -80px}
+.ui-icon-refresh{background-position:-64px -80px}
+.ui-icon-shuffle{background-position:-80px -80px}
+.ui-icon-transfer-e-w{background-position:-96px -80px}
+.ui-icon-transferthick-e-w{background-position:-112px -80px}
+.ui-icon-folder-collapsed{background-position:0 -96px}
+.ui-icon-folder-open{background-position:-16px -96px}
+.ui-icon-document{background-position:-32px -96px}
+.ui-icon-document-b{background-position:-48px -96px}
+.ui-icon-note{background-position:-64px -96px}
+.ui-icon-mail-closed{background-position:-80px -96px}
+.ui-icon-mail-open{background-position:-96px -96px}
+.ui-icon-suitcase{background-position:-112px -96px}
+.ui-icon-comment{background-position:-128px -96px}
+.ui-icon-person{background-position:-144px -96px}
+.ui-icon-print{background-position:-160px -96px}
+.ui-icon-trash{background-position:-176px -96px}
+.ui-icon-locked{background-position:-192px -96px}
+.ui-icon-unlocked{background-position:-208px -96px}
+.ui-icon-bookmark{background-position:-224px -96px}
+.ui-icon-tag{background-position:-240px -96px}
+.ui-icon-home{background-position:0 -112px}
+.ui-icon-flag{background-position:-16px -112px}
+.ui-icon-calendar{background-position:-32px -112px}
+.ui-icon-cart{background-position:-48px -112px}
+.ui-icon-pencil{background-position:-64px -112px}
+.ui-icon-clock{background-position:-80px -112px}
+.ui-icon-disk{background-position:-96px -112px}
+.ui-icon-calculator{background-position:-112px -112px}
+.ui-icon-zoomin{background-position:-128px -112px}
+.ui-icon-zoomout{background-position:-144px -112px}
+.ui-icon-search{background-position:-160px -112px}
+.ui-icon-wrench{background-position:-176px -112px}
+.ui-icon-gear{background-position:-192px -112px}
+.ui-icon-heart{background-position:-208px -112px}
+.ui-icon-star{background-position:-224px -112px}
+.ui-icon-link{background-position:-240px -112px}
+.ui-icon-cancel{background-position:0 -128px}
+.ui-icon-plus{background-position:-16px -128px}
+.ui-icon-plusthick{background-position:-32px -128px}
+.ui-icon-minus{background-position:-48px -128px}
+.ui-icon-minusthick{background-position:-64px -128px}
+.ui-icon-close{background-position:-80px -128px}
+.ui-icon-closethick{background-position:-96px -128px}
+.ui-icon-key{background-position:-112px -128px}
+.ui-icon-lightbulb{background-position:-128px -128px}
+.ui-icon-scissors{background-position:-144px -128px}
+.ui-icon-clipboard{background-position:-160px -128px}
+.ui-icon-copy{background-position:-176px -128px}
+.ui-icon-contact{background-position:-192px -128px}
+.ui-icon-image{background-position:-208px -128px}
+.ui-icon-video{background-position:-224px -128px}
+.ui-icon-script{background-position:-240px -128px}
+.ui-icon-alert{background-position:0 -144px}
+.ui-icon-info{background-position:-16px -144px}
+.ui-icon-notice{background-position:-32px -144px}
+.ui-icon-help{background-position:-48px -144px}
+.ui-icon-check{background-position:-64px -144px}
+.ui-icon-bullet{background-position:-80px -144px}
+.ui-icon-radio-off{background-position:-96px -144px}
+.ui-icon-radio-on{background-position:-112px -144px}
+.ui-icon-pin-w{background-position:-128px -144px}
+.ui-icon-pin-s{background-position:-144px -144px}
+.ui-icon-play{background-position:0 -160px}
+.ui-icon-pause{background-position:-16px -160px}
+.ui-icon-seek-next{background-position:-32px -160px}
+.ui-icon-seek-prev{background-position:-48px -160px}
+.ui-icon-seek-end{background-position:-64px -160px}
+.ui-icon-seek-first{background-position:-80px -160px}
+.ui-icon-stop{background-position:-96px -160px}
+.ui-icon-eject{background-position:-112px -160px}
+.ui-icon-volume-off{background-position:-128px -160px}
+.ui-icon-volume-on{background-position:-144px -160px}
+.ui-icon-power{background-position:0 -176px}
+.ui-icon-signal-diag{background-position:-16px -176px}
+.ui-icon-signal{background-position:-32px -176px}
+.ui-icon-battery-0{background-position:-48px -176px}
+.ui-icon-battery-1{background-position:-64px -176px}
+.ui-icon-battery-2{background-position:-80px -176px}
+.ui-icon-battery-3{background-position:-96px -176px}
+.ui-icon-circle-plus{background-position:0 -192px}
+.ui-icon-circle-minus{background-position:-16px -192px}
+.ui-icon-circle-close{background-position:-32px -192px}
+.ui-icon-circle-triangle-e{background-position:-48px -192px}
+.ui-icon-circle-triangle-s{background-position:-64px -192px}
+.ui-icon-circle-triangle-w{background-position:-80px -192px}
+.ui-icon-circle-triangle-n{background-position:-96px -192px}
+.ui-icon-circle-arrow-e{background-position:-112px -192px}
+.ui-icon-circle-arrow-s{background-position:-128px -192px}
+.ui-icon-circle-arrow-w{background-position:-144px -192px}
+.ui-icon-circle-arrow-n{background-position:-160px -192px}
+.ui-icon-circle-zoomin{background-position:-176px -192px}
+.ui-icon-circle-zoomout{background-position:-192px -192px}
+.ui-icon-circle-check{background-position:-208px -192px}
+.ui-icon-circlesmall-plus{background-position:0 -208px}
+.ui-icon-circlesmall-minus{background-position:-16px -208px}
+.ui-icon-circlesmall-close{background-position:-32px -208px}
+.ui-icon-squaresmall-plus{background-position:-48px -208px}
+.ui-icon-squaresmall-minus{background-position:-64px -208px}
+.ui-icon-squaresmall-close{background-position:-80px -208px}
+.ui-icon-grip-dotted-vertical{background-position:0 -224px}
+.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}
+.ui-icon-grip-solid-vertical{background-position:-32px -224px}
+.ui-icon-grip-solid-horizontal{background-position:-48px -224px}
+.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}
+.ui-icon-grip-diagonal-se{background-position:-80px -224px}
+.ui-widget-overlay{background:#000 none 0 0 repeat-x;opacity:.3;filter:Alpha(Opacity=30)}
+.ui-widget-shadow{margin:-4px 0 0 -4px;padding:4px;background:#000 none 0 0 repeat-x;opacity:.35;filter:Alpha(Opacity=35);-moz-border-radius:4px;-webkit-border-radius:4px}.ui-dialog{position:relative;padding:.1em;font-size:1.1em}
+.ui-dialog .ui-dialog-titlebar{padding:.3em;position:relative}
+.ui-dialog .ui-dialog-title{float:left;margin:.1em 0 .1em .6em}
+.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:19px;margin:-10px 0 0 0;padding:1px;height:18px}
+.ui-dialog .ui-dialog-titlebar-close span{display:block;margin:1px}
+.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus{background:0}
+.ui-dialog .ui-dialog-content{border:0;padding:.5em 1em;background:0;overflow:auto;zoom:1}
+.ui-dialog .ui-dialog-buttonpane{text-align:center;border-width:0;background-image:none;margin-bottom:.5em;padding:.1em .4em}
+.ui-dialog .ui-dialog-buttonpane button{display:inline-block;margin:.2em 1em 0 .2em;cursor:pointer;padding:.1em .7em;font-size:.8em;line-height:1.2em;min-width:5em;overflow:visible}
+.ui-dialog .ui-resizable-se{width:14px;height:14px;right:3px;bottom:3px}
+.ui-draggable .ui-dialog-titlebar{cursor:move}.ui-ddselector{display:inline-block;height:16px;border:solid 1px #B4B4B4;background-color:#fff;width:240px}
+.ui-ddselector .ddvaluebox_div,.ui-ddselector a.ddvaluebox,.ui-ddselector a:link.ddvaluebox,.ui-ddselector a:visited.ddvaluebox{display:block;float:left;position:relative;height:1.286em;width:100%;overflow:hidden;cursor:pointer;padding:1px 0;line-height:1.1em;color:#000}
+.ui-ddselector a:hover.ddvaluebox{color:#dadde0}
+.ui-ddselector .ddicon{display:inline-block;position:absolute;width:15px;height:16px;right:0;top:0;border-left:1px solid #B4B4B4;background:url("Resources/ArrowDown.gif") center center no-repeat}
+.ui-ddselector .ddiconup{background:url("Resources/ArrowDown.gif") center center no-repeat}
+.ui-ddselector .ddlimiter{display:block;overflow:visible;white-space:nowrap;padding-left:25px;margin-top:-1px;line-height:1.3em}
+ul.ui-ddselector-ul{top:45px;position:absolute;background-color:#fff;border:1px solid #B4B4B4;border-top:dotted 1px #B4B4B4;margin-left:-1px;margin-right:2px;padding-top:1px;z-index:9999}
+ul.ui-ddselector-ul li{cursor:pointer;line-height:1.2em;padding:1px 0 1px 6px;color:#000;overflow:hidden;white-space:nowrap;display:block;width:94%;height:15px;padding-left:25px}
+ul.ui-ddselector-ul li.hover span{color:#202121;background-color:#79cffa}
+.ui-ddselector.disabled .ddvaluebox_div,.ui-ddselector.disabled a.ddvaluebox,.ui-ddselector.disabled a:link.ddvaluebox,.ui-ddselector.disabled a:visited.ddvaluebox{color:#AAA;cursor:text}
+.ui-ddselector.disabled a:hover.ddvaluebox{color:#AAA}
+.ui-ddselector.disabled .ddicon{background-image:none!important;border-left:none}
+.ui-ddselector.disabled a:hover.ddvaluebox .ddicon{background-image:none}
+.ui-ddselector-focused{border:1px dotted gray}.ui-daterange{margin-left:.5em}
+.ui-daterange-startDate,.ui-daterange-endDate{display:inline-block;color:#1A4AA4;border-bottom:1px dotted;cursor:pointer}
+.ui-daterange-delimiter{display:inline-block;margin:0 .5em}
+.ui-daterange-popup{border:1px solid #8d8d8d;padding:.5em;background:#fff;overflow:hidden}
+.ui-daterange-datepickersArea{float:left;clear:both;overflow:hidden}
+.ui-daterange-datepickersArea{padding-bottom:3em}
+.ui-daterange-buttonsArea{position:absolute;right:.5em;bottom:.5em}
+.ui-daterange-startDatepicker,.ui-daterange-endDatepicker{float:left}
+.ui-daterange-startDatepicker{margin-right:1em}.ui-passwordInput span{margin-right:1em}div.episerver-pagetreeview ul{list-style:none;margin:0;padding:0;zoom:1}
+div.episerver-pagetreeview ul ul{margin-left:1em}
+div.episerver-pagetreeview ul li{white-space:nowrap;padding:0;list-style-type:none;position:relative;zoom:1}
+div.episerver-pagetreeview .hide{display:none}
+div.episerver-pagetreeview span.icon{width:16px;height:18px;position:absolute;cursor:default;overflow:hidden;background-position:left center;background-repeat:no-repeat;background-color:transparent!important;-moz-user-select:none}
+div.episerver-pagetreeview span.templatecontainer{margin-left:1.2em;height:18px}
+li.parent{background:url(Resources/ExplorerTree/I.gif) repeat-y left top!important}
+li.parentlast{background:url(Resources/ExplorerTree/I.gif) no-repeat left top!important}
+li span.leafnode{background-image:url(Resources/ExplorerTree/T.gif)!important}
+li span.leafnodelast{background-image:url(Resources/ExplorerTree/L.gif)!important}
+li span.collapse{background-image:url(Resources/ExplorerTree/Tminus.gif)!important}
+li span.collapselast{background-image:url(Resources/ExplorerTree/Lminus.gif)!important}
+li span.expand{background-image:url(Resources/ExplorerTree/Tplus.gif)!important}
+li span.expandlast{background-image:url(Resources/ExplorerTree/Lplus.gif)!important}
+li span.load{background-image:url(Resources/ExplorerTree/loading.gif)!important}
+li span.loadlast{background-image:url(Resources/ExplorerTree/loading.gif)!important}
+div.episerver-pagetreeview{margin:0;padding:0;font-family:Tahoma,Arial,Verdana;font-size:.9em;line-height:1.3em}
+div.episerver-pagetreeview a,div.episerver-pagetreeview a:link,div.episerver-pagetreeview a:visited{color:#202121;padding:0;margin:0;padding-right:2px;padding-left:2px;text-decoration:none;margin-left:2px}
+div.episerver-pagetreeview a:hover{color:#e6e6e6;background-color:#575757}
+div.episerver-pagetreeview img.typeicon{vertical-align:bottom;margin-bottom:2px}
+div.episerver-pagetreeview span.iconcontainer{padding-top:1px;position:absolute;vertical-align:top;height:14px}
+div.episerver-pagetreeview img.statusicon{position:relative;margin-left:4px;margin-top:2px}
+div.episerver-pagetreeview span.selected a{background-color:#575757;color:#e6e6e6}
+div.dragmarker{white-space:nowrap;cursor:default;filter:alpha(opacity = 60);opacity:.6}
+div#toolTipDiv{background-color:infobackground;color:infotext;border:solid 1px windowframe;z-index:20000;white-space:nowrap;font-size:8pt;padding:1px 3px 2px 3px}

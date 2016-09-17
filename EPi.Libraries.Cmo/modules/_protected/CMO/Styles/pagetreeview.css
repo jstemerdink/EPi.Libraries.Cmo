@@ -1,0 +1,192 @@
+
+div.episerver-pagetreeview ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* 
+        IE feature that turns hasLayout on which makes the element render itself. 
+        Otherwise the rendering is handed over to any parent where hasLayout is set. 
+        The problem is that the parent may fail to repaint which result in misplaced or not updated elements.
+    */
+    zoom: 1;
+}
+
+div.episerver-pagetreeview ul ul
+{
+    margin-left: 1em; 
+}
+
+div.episerver-pagetreeview ul li
+{
+    white-space: nowrap;
+    padding: 0;
+    list-style-type:none;
+    position:relative;
+    
+    /* IE fix, see explanation above*/
+    zoom:1;
+}
+
+div.episerver-pagetreeview .show
+{
+}
+
+div.episerver-pagetreeview .hide
+{
+    display:none;
+}
+
+div.episerver-pagetreeview span.icon
+{
+    width: 16px;
+    height: 18px;
+    position:absolute;
+    cursor:default;
+    overflow: hidden;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    -moz-user-select: none;
+}
+
+div.episerver-pagetreeview span.templatecontainer
+{
+    margin-left: 1.2em;
+    height: 18px;
+}
+
+li.parent
+{
+    background: url(Resources/ExplorerTree/I.gif) repeat-y left top !important;
+}
+
+li.parentlast
+{
+    background: url(Resources/ExplorerTree/I.gif) no-repeat left top !important;
+}
+
+li span.leafnode
+{
+    background-image: url(Resources/ExplorerTree/T.gif) !important;
+}
+
+li span.leafnodelast
+{
+    background-image: url(Resources/ExplorerTree/L.gif) !important;
+}
+
+li span.collapse
+{
+    background-image: url(Resources/ExplorerTree/Tminus.gif) !important;
+}
+
+li span.collapselast
+{
+    background-image: url(Resources/ExplorerTree/Lminus.gif) !important;
+}
+
+li span.expand
+{
+    background-image: url(Resources/ExplorerTree/Tplus.gif) !important;
+}
+
+li span.expandlast
+{
+    background-image: url(Resources/ExplorerTree/Lplus.gif) !important;
+}
+
+li span.load
+{
+    background-image: url(Resources/ExplorerTree/loading.gif) !important;
+}
+
+li span.loadlast
+{
+    background-image: url(Resources/ExplorerTree/loading.gif) !important;
+}
+
+/*
+    Default layout for the PageExplorer tree 
+*/
+div.episerver-pagetreeview
+{
+/*--	display: block;--*/
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 0.9em;
+    line-height: 1.3em;
+/*    overflow: auto;
+    height: 100%; */
+}
+
+div.episerver-pagetreeview a,
+div.episerver-pagetreeview a:link,
+div.episerver-pagetreeview a:visited
+{
+    color:#202121;
+    padding:0;
+    margin:0;
+    padding-right:2px;
+    padding-left:2px;
+    text-decoration: none;
+    margin-left:2px;
+}
+
+div.episerver-pagetreeview a:hover
+{
+    color: #e6e6e6;
+    background-color: #575757;
+}
+
+div.episerver-pagetreeview img.typeicon
+{
+    vertical-align:bottom;
+    margin-bottom:2px;    
+}
+
+div.episerver-pagetreeview span.iconcontainer 
+{
+    padding-top:1px;
+    position:absolute;
+    vertical-align:top;
+    height:14px;
+}
+
+div.episerver-pagetreeview img.statusicon
+{
+    position:relative;
+    margin-left:4px;
+    margin-top:2px;
+}
+
+div.episerver-pagetreeview span.selected a
+{
+    background-color: #575757;
+    color: #e6e6e6;
+}
+
+div.dragmarker
+{
+   
+    white-space:nowrap;
+    cursor: default;
+    filter: alpha(opacity = 60);
+	opacity: 0.6;
+}
+
+/*
+EPi.ToolTip class
+*/
+div#toolTipDiv
+{
+    background-color: infobackground;
+    color: infotext;
+    border: solid 1px windowframe;
+    z-index: 20000;
+    white-space: nowrap;
+    font-size: 8pt;
+    padding: 1px 3px 2px 3px;
+}
