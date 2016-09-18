@@ -5,7 +5,7 @@ By Jeroen Stemerdink
 [![GitHub version](https://badge.fury.io/gh/jstemerdink%2FEPi.Libraries.Cmo.svg)](http://badge.fury.io/gh/jstemerdink%2FEPi.Libraries.Cmo)
 [![Platform](https://img.shields.io/badge/platform-.NET 4.5-blue.svg?style=flat)](https://msdn.microsoft.com/en-us/library/w0x726c2%28v=vs.110%29.aspx)
 [![Platform](https://img.shields.io/badge/EPiServer-%209.0.0-orange.svg?style=flat)](http://world.episerver.com/cms/)
-[![Github All Releases](https://img.shields.io/github/downloads/jstemerdink/EPi.Libraries.Forms/total.svg?maxAge=2592000)](https://github.com/jstemerdink/EPi.Libraries.Forms/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/jstemerdink/EPi.Libraries.Cmo/total.svg?maxAge=2592000)](https://github.com/jstemerdink/EPi.Libraries.Cmo/releases)
 
 ## Instructions
 
